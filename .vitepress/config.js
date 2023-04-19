@@ -6,6 +6,7 @@ import { defineConfig } from "vitepress";
 export default {
   title: "vianote",
   description: "",
+  outDir: "./docs",
   locales: {
     root: {
       label: "简体中文",
