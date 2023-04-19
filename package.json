@@ -1,16 +1,26 @@
 {
-  "name": "viarotel.github.io",
+  "name": "vitepress-note-template",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "lint": "pnpm run lint:js",
+    "lint:js": "eslint . .vitepress --ext .vue,.js,.ts,.jsx,.tsx --ignore-path .eslintignore --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "viarotel",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.72"
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-vue": "^9.9.0",
+    "unocss": "^0.51.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitepress": "1.0.0-alpha.72",
+    "vitepress-plugin-auto-sidebar": "^1.0.6",
+    "vue-eslint-parser": "^9.1.0"
   }
 }

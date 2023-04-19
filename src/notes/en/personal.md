@@ -1,0 +1,1 @@
+A life of consistent effort without slackening.
