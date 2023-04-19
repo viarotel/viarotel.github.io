@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as s,O as e}from"./chunks/framework.97fbe135.js";const m=JSON.parse('{"title":"git 按项目配置代理","description":"","frontmatter":{},"headers":[],"relativePath":"category/git/按项目配置代理.md"}'),o={name:"category/git/按项目配置代理.md"},n=e("",2),c=[n];function l(p,r,_,i,d,h){return s(),t("div",null,c)}const y=a(o,[["render",l]]);export{m as __pageData,y as default};

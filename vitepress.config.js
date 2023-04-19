@@ -26,7 +26,7 @@ export default {
     ],
   ],
   srcDir: './src/notes',
-  outDir: './docs',
+  outDir: './dist',
   vite: {
     plugins: [useUnoCSS(), useEslint({ fix: true })],
     resolve: {
