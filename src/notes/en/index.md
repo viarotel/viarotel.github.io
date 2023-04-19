@@ -8,7 +8,7 @@ hero:
   tagline: "I often forget some things that are trivial but important, and I want to record them."
   actions:
     - theme: brand
-      text: Personal Profile
+      text: Know me
       link: /en/personal
     - theme: alt
       text: Contact me

@@ -8,7 +8,7 @@ hero:
   tagline: "我经常忘记一些事，它们琐碎却重要，我想记录它们。"
   actions:
     - theme: brand
-      text: 个人简介
+      text: 了解我
       link: /personal
     - theme: alt
       text: 与我联系
