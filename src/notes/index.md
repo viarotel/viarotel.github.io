@@ -16,12 +16,12 @@ hero:
 
 features:
   - title: vite-uniapp-template
-    details: 🚀基于vite驱动的uniapp最佳实践的集成模板
+    details: 🚀 基于vite驱动的uniapp最佳实践的集成模板
     link: https://github.com/viarotel/vite-uniapp-template
   - title: bing-chat-live-open
-    details: 🚀使用 BingChat(基于 OpenGPT4) 进行直播弹幕互动
+    details: 🚀 使用 BingChat(基于 OpenGPT4) 进行直播弹幕互动
     link: https://github.com/viarotel/bing-chat-live-open
   - title: vue-cli-electron
-    details: 🚀基于Vue CLI搭建的Electron脚手架
+    details: 🚀 基于Vue CLI搭建的Electron脚手架
     link: https://github.com/viarotel/vue-cli-electron
 ---
