@@ -11,9 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+.vitepress/cache
 
 # Editor directories and files
-.vscode/*
+.vscode
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -25,4 +26,3 @@ dist-ssr
 *.lock
 
 # user
-/src/assets/videos/home/banner-1.mp4

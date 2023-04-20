@@ -1,3 +1,3 @@
-import themeConfigs from "../../src/main.js";
+import themeConfigs from '../../src/main.js'
 
-export default themeConfigs;
+export default themeConfigs
