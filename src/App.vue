@@ -22,7 +22,7 @@ const sampleLottie = sample(lotties).default
           <lottie-player
             autoplay
             loop
-            class="translate-x-3.5 mb-4 max-w-77"
+            class="translate-x-2 max-w-48 sm:max-w-72"
             :src="sampleLottie"
           >
           </lottie-player>
