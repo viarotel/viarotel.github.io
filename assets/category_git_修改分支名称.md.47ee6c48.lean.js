@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,V as l}from"./chunks/framework.89869c06.js";const d=JSON.parse('{"title":"git 修改分支名称","description":"","frontmatter":{},"headers":[],"relativePath":"category/git/修改分支名称.md"}'),o={name:"category/git/修改分支名称.md"},e=l("",7),p=[e];function t(c,r,i,C,y,A){return a(),n("div",null,p)}const h=s(o,[["render",t]]);export{d as __pageData,h as default};
