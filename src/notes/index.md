@@ -12,9 +12,9 @@ hero:
   actions:
     - theme: brand
       text: 了解我
-      link: /personal
+      link: /about
     - theme: alt
-      text: 与我联系
+      text: 联系我
       link: /contact
 ---
 

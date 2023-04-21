@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Know me
-      link: /en/personal
+      link: /en/about
     - theme: alt
       text: Contact me
       link: /en/contact

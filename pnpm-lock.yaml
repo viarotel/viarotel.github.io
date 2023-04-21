@@ -13,8 +13,9 @@ specifiers:
   qs: ^6.11.1
   unocss: ^0.51.4
   vite-plugin-eslint: ^1.8.1
-  vitepress: 1.0.0-alpha.72
+  vitepress: 1.0.0-alpha.73
   vitepress-plugin-auto-sidebar: ^1.0.6
+  vitepress-sidebar: ^1.3.1
   vue-eslint-parser: ^9.1.0
 
 dependencies:
@@ -32,8 +33,9 @@ devDependencies:
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.11.0_eslint@8.38.0
   unocss: registry.npmmirror.com/unocss/0.51.5
   vite-plugin-eslint: registry.npmmirror.com/vite-plugin-eslint/1.8.1_eslint@8.38.0
-  vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.72
+  vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.73
   vitepress-plugin-auto-sidebar: registry.npmmirror.com/vitepress-plugin-auto-sidebar/1.0.6
+  vitepress-sidebar: registry.npmmirror.com/vitepress-sidebar/1.3.1
   vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.1.1_eslint@8.38.0
 
 packages:
@@ -3378,10 +3380,17 @@ packages:
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     dev: true
 
-  registry.npmmirror.com/vitepress/1.0.0-alpha.72:
-    resolution: {integrity: sha512-Ou7fNE/OVYLrKGQMHSTVG6AcNsdv7tm4ACrdhx93SPMzEDj8UgIb4RFa5CTTowaYf3jeDGi2EAJlzXVC+IE3dg==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.72.tgz}
+  registry.npmmirror.com/vitepress-sidebar/1.3.1:
+    resolution: {integrity: sha512-EUt8WwJbZ99xcHll/BlJQdmlxi3FgWYq8hokG4XkfNg4JAnmSKAbFK7EgaTgQbAlceNzidSZBCEXrNE+Hk/tCg==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/vitepress-sidebar/-/vitepress-sidebar-1.3.1.tgz}
+    name: vitepress-sidebar
+    version: 1.3.1
+    engines: {node: '>=14.0.0'}
+    dev: true
+
+  registry.npmmirror.com/vitepress/1.0.0-alpha.73:
+    resolution: {integrity: sha512-BWK7b5yYxdA3SeBnUV+ly8vJU2MFcQhjooycLDc2AsSd07uGp+WO6J6gBmjwHuOz5hgcNa+/VxGWKKwBycdbnA==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.73.tgz}
     name: vitepress
-    version: 1.0.0-alpha.72
+    version: 1.0.0-alpha.73
     hasBin: true
     dependencies:
       '@docsearch/css': registry.npmmirror.com/@docsearch/css/3.3.3

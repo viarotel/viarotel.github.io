@@ -18,7 +18,7 @@ if (!import.meta.env.SSR) {
     .catch((e) => console.log(e))
 }
 
-const lotties = import.meta.globEager('./notes/public/lotties/*.json')
+const lotties = import.meta.globEager('./assets/lotties/*.json')
 // console.log('lotties', lotties)
 
 const sampleLottie = sample(lotties).default

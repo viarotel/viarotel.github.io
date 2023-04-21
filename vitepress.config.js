@@ -1,16 +1,23 @@
+// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/reference/default-theme-config
 import path from 'node:path'
 import useUnoCSS from 'unocss/vite'
 import useEslint from 'vite-plugin-eslint'
-import { getSidebar } from 'vitepress-plugin-auto-sidebar'
+import { generateSidebar } from 'vitepress-sidebar'
 
-// https://vitepress.dev/reference/site-config
-// https://vitepress.dev/reference/default-theme-config
-const sidebar = getSidebar({
-  contentRoot: '/src/notes',
-  contentDirs: ['category'],
-  collapsible: false,
+const sidebar = generateSidebar({
+  root: '/src/notes',
+  useTitleFromFileHeading: true,
   collapsed: false,
-})
+  withIndex: false,
+})[0]?.items || []
+// console.log('sidebar', JSON.stringify(sidebar))
+
+const notes = (() => {
+  const category = sidebar.find((item) => item.text === 'category')?.items || []
+  return category.filter((item) => item.text !== 'index.md')
+})()
+// console.log('notes', JSON.stringify(notes))
 
 const useImgTag = (src) =>
   `<img src="${src}" style="width: 20px; height: 20px;" class="hover:opacity-100 opacity-70 duration-500" />`
@@ -53,20 +60,22 @@ export default {
       description: '这里是 viarotel',
       themeConfig: {
         nav: [
-          { text: '主页', link: '/index' },
-          { text: '个人简介', link: '/personal' },
-          { text: '与我联系', link: '/contact' },
+          { text: '主页', link: '/' },
+          { text: '备忘', link: '/category/' },
+          { text: '关于我', link: '/about' },
         ],
         sidebar: [
           {
+            text: '备忘',
+            items: [{ text: '前言', link: '/category/' }, ...notes],
+          },
+          {
             text: '关于我',
             items: [
-              { text: '个人简介', link: '/personal' },
-              { text: '与我联系', link: '/contact' },
+              { text: '简介', link: '/about' },
+              { text: '联系', link: '/contact' },
             ],
           },
-          // @ts-ignore
-          ...sidebar.map((item) => ({ ...item, text: '我的笔记' })),
         ],
       },
     },
@@ -77,20 +86,22 @@ export default {
       description: 'This is viarotel',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/index' },
-          { text: 'Personal Profile', link: '/en/personal' },
-          { text: 'Contact me', link: '/en/contact' },
+          { text: 'Home', link: '/en/' },
+          { text: 'Memo', link: '/en/category/' },
+          { text: 'About me', link: '/en/about' },
         ],
         sidebar: [
           {
+            text: 'Memo',
+            items: [{ text: 'Preface', link: '/en/category/' }, ...notes],
+          },
+          {
             text: 'About me',
             items: [
-              { text: 'Personal Profile', link: '/en/personal' },
-              { text: 'Contact me', link: '/en/contact' },
+              { text: 'About', link: '/en/about' },
+              { text: 'Contact', link: '/en/contact' },
             ],
           },
-          // @ts-ignore
-          ...sidebar.map((item) => ({ ...item, text: 'My notes' })),
         ],
       },
     },
