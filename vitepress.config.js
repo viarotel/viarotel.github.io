@@ -3,6 +3,7 @@
 import path from 'node:path'
 import useUnoCSS from 'unocss/vite'
 import useEslint from 'vite-plugin-eslint'
+import useRemoveConsole from 'vite-plugin-remove-console'
 import { generateSidebar } from 'vitepress-sidebar'
 
 const sidebar = generateSidebar({
@@ -36,10 +37,7 @@ export default {
   srcDir: './src/notes',
   outDir: './dist',
   vite: {
-    optimizeDeps: {
-      exclude: ['@lottiefiles/lottie-player'],
-    },
-    plugins: [useUnoCSS(), useEslint({ fix: true })],
+    plugins: [useRemoveConsole(), useEslint({ fix: true }), useUnoCSS()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src/'),
