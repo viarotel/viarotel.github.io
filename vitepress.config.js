@@ -66,7 +66,7 @@ export default {
         ],
         sidebar: [
           {
-            text: '备忘',
+            text: '备忘录',
             items: [{ text: '前言', link: '/category/' }, ...notes],
           },
           {
@@ -92,7 +92,7 @@ export default {
         ],
         sidebar: [
           {
-            text: 'Memo',
+            text: 'Memorandum',
             items: [{ text: 'Preface', link: '/en/category/' }, ...notes],
           },
           {
