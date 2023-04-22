@@ -60,6 +60,7 @@ export default {
         nav: [
           { text: '主页', link: '/' },
           { text: '备忘', link: '/category/' },
+          { text: '书签', link: '/bookmarks' },
           { text: '关于我', link: '/about' },
         ],
         sidebar: [
@@ -72,6 +73,7 @@ export default {
             items: [
               { text: '简介', link: '/about' },
               { text: '联系', link: '/contact' },
+              { text: '书签', link: '/bookmarks' },
             ],
           },
         ],
@@ -86,6 +88,7 @@ export default {
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Memo', link: '/en/category/' },
+          { text: 'Bookmarks', link: '/bookmarks' },
           { text: 'About me', link: '/en/about' },
         ],
         sidebar: [
@@ -98,6 +101,7 @@ export default {
             items: [
               { text: 'About', link: '/en/about' },
               { text: 'Contact', link: '/en/contact' },
+              { text: 'Bookmarks', link: '/bookmarks' },
             ],
           },
         ],
@@ -105,7 +109,7 @@ export default {
     },
   },
   themeConfig: {
-    logo: '/images/avatar.jpg',
+    logo: { src: '/images/avatar.gif', alt: 'viarotel' },
     search: {
       provider: 'local',
     },

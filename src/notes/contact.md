@@ -1,2 +1,2 @@
-- weixin: <b>viarotel</b>
-- qq: <b>523469508</b>
+- Weixin: **viarotel**
+- Email: **viarotel@qq.com**

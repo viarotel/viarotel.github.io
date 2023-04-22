@@ -60,3 +60,8 @@ const loadNextLottie = () => {
     </template>
   </Layout>
 </template>
+<style lang="postcss">
+.VPNavBarTitle .VPImage.logo {
+  @apply !rounded;
+}
+</style>
