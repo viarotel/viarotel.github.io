@@ -1028,25 +1028,6 @@
 
 [Multi-Platform Java Installer Builder - install4j](https://www.ej-technologies.com/products/install4j/overview.html)
 
-## Vpn
-
-[Netflix 奈飞中文社区](https://netflixcn.com/)
-
-[购买商品\_苹果美区 APPLE ID 账号【苹果帝】](https://fk.appledi.com/product/)
-
-[购买商品\_WiFiAS 自动下单发卡平台](https://shop.wifias.com/product/)
-
-[美区 小火箭 兑换码*购买商品*羊王杂货铺](https://id.wohaobang.cn/product/7.html)
-
-[V2Fly.org](https://www.v2fly.org/)
-
-[门户首页 - 墙裂-永久域名](https://www.qianglie.com/)
-
-[Tailscale · Best VPN Service for Secure Networks](https://tailscale.com/)
-
-[一元机场](https://xn--4gq62f52gdss.com/)
-
-[赔钱机场](https://xn--mes358aby2apfg.com/#/dashboard)
 
 ## Ui
 
