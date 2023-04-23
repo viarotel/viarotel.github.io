@@ -56,8 +56,6 @@
 
 [鱼塘热榜](https://mo.fish/)
 
-[Yandex](https://yandex.com/)
-
 ## AI
 
 [Bard](https://bard.google.com/)
