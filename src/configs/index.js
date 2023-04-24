@@ -14,6 +14,9 @@ export const proxyPath = '/proxy'
 // 代理端口号
 export const proxyPort = 8088
 
+// 谷歌分析
+export const GoogleAnalyticsId = 'G-24PQ0ZF4RG'
+
 export default {
   title,
   appBasePath,

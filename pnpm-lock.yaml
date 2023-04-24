@@ -7,6 +7,7 @@ specifiers:
   eslint-config-airbnb-base: ^15.0.0
   eslint-plugin-import: ^2.27.5
   eslint-plugin-vue: ^9.9.0
+  ga-gtag: ^1.1.7
   lodash-es: ^4.17.21
   ofetch: ^1.0.1
   pathe: ^1.1.0
@@ -21,6 +22,7 @@ specifiers:
 
 dependencies:
   '@lottiefiles/lottie-player': registry.npmmirror.com/@lottiefiles/lottie-player/1.7.1
+  ga-gtag: registry.npmmirror.com/ga-gtag/1.1.7
   lodash-es: registry.npmmirror.com/lodash-es/4.17.21
   ofetch: registry.npmmirror.com/ofetch/1.0.1
   pathe: registry.npmmirror.com/pathe/1.1.0
@@ -2029,6 +2031,12 @@ packages:
     name: functions-have-names
     version: 1.2.3
     dev: true
+
+  registry.npmmirror.com/ga-gtag/1.1.7:
+    resolution: {integrity: sha512-fT/D87hhuNIAmEB2z9mxz88gMFYc1olpX/fETHidZ51sYJ4y6OFch8HZ0DoNWPGFw1BCHB0fqt68dUWvd8kM1Q==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/ga-gtag/-/ga-gtag-1.1.7.tgz}
+    name: ga-gtag
+    version: 1.1.7
+    dev: false
 
   registry.npmmirror.com/get-intrinsic/1.2.0:
     resolution: {integrity: sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.2.0.tgz}
