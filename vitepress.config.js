@@ -12,12 +12,13 @@ const sidebar = generateSidebar({
   useTitleFromFileHeading: true,
   collapsed: false,
   withIndex: false,
+  capitalizeFirst: true,
 })[0]?.items || []
 // console.log('sidebar', JSON.stringify(sidebar))
 
 const notes = (() => {
-  const category = sidebar.find((item) => item.text === 'category')?.items || []
-  return category.filter((item) => item.text !== 'index.md')
+  const category = sidebar.find((item) => item.text === 'Category')?.items || []
+  return category.filter((item) => item.text !== 'Index.md')
 })()
 // console.log('notes', JSON.stringify(notes))
 
