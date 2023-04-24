@@ -27,6 +27,7 @@ const useImgTag = (src) =>
 
 export default {
   title: 'viarotel',
+  lang: 'zh-CN',
   head: [
     [
       'link',
