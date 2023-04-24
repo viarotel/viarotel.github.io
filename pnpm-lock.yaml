@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@lottiefiles/lottie-player': ^1.7.1
   '@unocss/transformer-directives': ^0.51.5
+  dayjs: ^1.11.7
   eslint: ^8.36.0
   eslint-config-airbnb-base: ^15.0.0
   eslint-plugin-import: ^2.27.5
@@ -22,6 +23,7 @@ specifiers:
 
 dependencies:
   '@lottiefiles/lottie-player': registry.npmmirror.com/@lottiefiles/lottie-player/1.7.1
+  dayjs: registry.npmmirror.com/dayjs/1.11.7
   ga-gtag: registry.npmmirror.com/ga-gtag/1.1.7
   lodash-es: registry.npmmirror.com/lodash-es/4.17.21
   ofetch: registry.npmmirror.com/ofetch/1.0.1
@@ -1462,6 +1464,12 @@ packages:
     name: csstype
     version: 2.6.21
     dev: true
+
+  registry.npmmirror.com/dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/dayjs/-/dayjs-1.11.7.tgz}
+    name: dayjs
+    version: 1.11.7
+    dev: false
 
   registry.npmmirror.com/debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/debug/-/debug-3.2.7.tgz}

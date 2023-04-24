@@ -5,6 +5,7 @@ import useUnoCSS from 'unocss/vite'
 import useEslint from 'vite-plugin-eslint'
 import useRemoveConsole from 'vite-plugin-remove-console'
 import { generateSidebar } from 'vitepress-sidebar'
+import dayjs from 'dayjs'
 
 const sidebar = generateSidebar({
   root: '/src/notes',
@@ -38,6 +39,13 @@ export default {
       'script',
       {
         src: 'https://hm.baidu.com/hm.js?8731b7a102ed9bd8d70286c74cedea79',
+      },
+    ],
+    // 不蒜子统计工具
+    [
+      'script',
+      {
+        src: 'https://busuanzi.9420.ltd/js',
       },
     ],
   ],
@@ -141,8 +149,14 @@ export default {
       },
     ],
     footer: {
-      message: 'Released under the Apache License.',
-      copyright: 'Copyright © 2023-present viarotel',
+      message: `
+        Views <span id="busuanzi_site_pv"></span>
+        ,
+        Visitors <span id="busuanzi_site_uv"></span>
+        <br />
+        Released under the Apache License. 
+      `,
+      copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
     },
   },
 }
