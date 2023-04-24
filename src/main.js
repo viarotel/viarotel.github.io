@@ -7,7 +7,7 @@ import App from './App.vue'
 import 'virtual:uno.css'
 import './styles/index.js'
 
-// import './utils/gtag/index.js'
+import './utils/gtag/index.js'
 
 export default {
   ...Theme,
