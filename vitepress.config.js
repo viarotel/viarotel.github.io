@@ -33,6 +33,13 @@ export default {
         href: '/images/avatar.jpg',
       },
     ],
+    // 百度统计工具
+    [
+      'script',
+      {
+        src: 'https://hm.baidu.com/hm.js?8731b7a102ed9bd8d70286c74cedea79',
+      },
+    ],
   ],
   srcDir: './src/notes',
   outDir: './dist',
