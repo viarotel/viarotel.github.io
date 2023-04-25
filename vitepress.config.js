@@ -138,8 +138,8 @@ export default {
             placeholder: '搜索文档',
             translations: {
               button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档',
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索',
               },
               modal: {
                 searchBox: {
