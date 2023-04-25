@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,R as l}from"./chunks/framework.23834729.js";const A=JSON.parse('{"title":"macOS 常用命令","description":"","frontmatter":{},"headers":[],"relativePath":"category/apple/macos.md"}'),o={name:"category/apple/macos.md"},p=l("",2),t=[p];function e(c,r,i,y,C,_){return a(),n("div",null,t)}const D=s(o,[["render",e]]);export{A as __pageData,D as default};

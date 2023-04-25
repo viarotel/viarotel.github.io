@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as l,R as n}from"./chunks/framework.23834729.js";const A=JSON.parse('{"title":"git 操作分支","description":"","frontmatter":{},"headers":[],"relativePath":"category/git/branch.md"}'),e={name:"category/git/branch.md"},o=n("",11),t=[o];function p(c,r,i,C,h,y){return a(),l("div",null,t)}const D=s(e,[["render",p]]);export{A as __pageData,D as default};
