@@ -94,6 +94,7 @@ export default {
             ],
           },
         ],
+        lastUpdatedText: '最后更新时间',
       },
     },
     en: {
@@ -209,4 +210,5 @@ export default {
       copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
     },
   },
+  lastUpdated: true,
 }
