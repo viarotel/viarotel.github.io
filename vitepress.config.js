@@ -94,7 +94,12 @@ export default {
             ],
           },
         ],
+        outlineTitle: '当前页',
         lastUpdatedText: '最后更新时间',
+        docFooter: {
+          prev: '上一页',
+          next: '下一页',
+        },
       },
     },
     en: {
