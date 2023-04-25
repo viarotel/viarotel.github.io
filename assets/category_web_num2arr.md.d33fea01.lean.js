@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as e,R as t}from"./chunks/framework.23834729.js";const C=JSON.parse('{"title":"通过数字生成升序数组","description":"","frontmatter":{},"headers":[],"relativePath":"category/web/num2arr.md"}'),n={name:"category/web/num2arr.md"},o=t("",2),l=[o];function r(p,c,i,_,y,d){return s(),e("div",null,l)}const u=a(n,[["render",r]]);export{C as __pageData,u as default};
