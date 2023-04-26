@@ -17,8 +17,6 @@ if (!import.meta.env.SSR) {
     })
     .catch((e) => console.error(e))
 }
-
-const load = () => {}
 </script>
 
 <template>
