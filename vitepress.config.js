@@ -6,6 +6,7 @@ import useEslint from 'vite-plugin-eslint'
 import useRemoveConsole from 'vite-plugin-remove-console'
 import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
+import rewrite from './src/rewrite/index.js'
 
 const sidebar = generateSidebar({
   root: '/src/notes',
@@ -57,6 +58,7 @@ export default {
     plugins: [useRemoveConsole(), useEslint({ fix: true }), useUnoCSS()],
     resolve: {
       alias: {
+        ...rewrite,
         '@': path.resolve(__dirname, './src/'),
       },
     },
