@@ -1,10 +1,10 @@
 <script setup>
-import { reactive, ref } from 'vue'
+import { reactive, ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import VPFeatures from 'vitepress/dist/client/theme-default/components/VPFeatures.vue'
 import request from '@/utils/request/index.js'
 
-const { lang } = useData()
+const { lang, theme } = useData()
 
 const getRepos = async () => {
   const res = {
@@ -128,11 +128,9 @@ const getRepos = async () => {
   return res
 }
 
-const features = ref([]);
-
-(async () => {
-  const res = await getRepos()
-  features.value = res.repos
+const features = computed(() => {
+  const repos = theme.value.repos || []
+  return repos
     .map((item) => ({
       ...item,
       title: item.name,
@@ -140,7 +138,7 @@ const features = ref([]);
       link: `https://github.com/${item.repo}`,
     }))
     .sort((a, b) => b.stars - a.stars)
-})()
+})
 </script>
 
 <script></script>

@@ -18,11 +18,11 @@ export default request({
       ? Object.fromEntries(headers.entries())
       : configs.headers
 
-    console.log('onRequest.url', url)
-    console.log('onRequest.headers', configs.headers)
-    console.log('onRequest.body', body)
-    console.log('onRequest.query', configs[queryKey])
-    console.log('onRequest.configs', configs)
+    // console.log('onRequest.url', url)
+    // console.log('onRequest.headers', configs.headers)
+    // console.log('onRequest.body', body)
+    // console.log('onRequest.query', configs[queryKey])
+    // console.log('onRequest.configs', configs)
     return configs
   },
   onRequestError(error) {
@@ -32,7 +32,7 @@ export default request({
   async onResponse({
     url, configs, response, dataKey = 'data',
   } = {}) {
-    console.log('onResponse.response', response)
+    // console.log('onResponse.response', response)
 
     // 文件二进制流响应全部数据（Tips:文件名在请求头中）
     if (configs.responseType === 'blob') {
@@ -46,7 +46,7 @@ export default request({
       return response
     }
 
-    console.log('onResponse.data', response[dataKey])
+    // console.log('onResponse.data', response[dataKey])
 
     return response
   },
@@ -55,9 +55,9 @@ export default request({
     const status = response.status
     const statusText = response.statusText
 
-    console.log('onResponseError.response', response)
-    console.log('onResponseError.data', response[dataKey])
-    console.log('onResponseError.status', response.status)
-    console.log('onResponseError.statusText', response.statusText)
+    // console.log('onResponseError.response', response)
+    // console.log('onResponseError.data', response[dataKey])
+    // console.log('onResponseError.status', response.status)
+    // console.log('onResponseError.statusText', response.statusText)
   },
 })

@@ -3,6 +3,20 @@
 
 import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
+import request from './src/utils/request/index'
+
+const getRepos = async () => {
+  const res = await request
+    // @ts-ignore
+    .get('https://ungh.cc/orgs/viarotel-org/repos')
+    .catch((e) => console.warn(e))
+
+  console.log('res', res)
+
+  return res
+}
+
+const repos = (await getRepos())?.repos || []
 
 const sidebar = generateSidebar({
   root: '/src/notes',
@@ -142,6 +156,7 @@ export default {
       `,
       copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
     },
+    repos,
   },
   locales: {
     root: {

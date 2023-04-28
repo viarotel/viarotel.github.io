@@ -1,7 +1,7 @@
 import { ofetch } from 'ofetch'
 import qs from 'qs'
 import { abortSignalTimeoutPolyfill } from '../utils.js'
-import { baseURL, timeout } from '@/configs/request.js'
+import { baseURL, timeout } from '../../../configs/request.js'
 
 const defaultConfigs = {
   headers: {
