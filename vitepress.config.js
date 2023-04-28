@@ -59,69 +59,6 @@ export default {
       },
     },
   },
-  locales: {
-    root: {
-      label: '简体中文',
-      titleTemplate: '这里是 viarotel',
-      description: '这里是 viarotel',
-      themeConfig: {
-        nav: [
-          { text: '主页', link: '/' },
-          { text: '备忘', link: '/memo/' },
-          { text: '书签', link: '/bookmarks' },
-          { text: '关于我', link: '/about' },
-        ],
-        sidebar: [
-          {
-            text: '备忘录',
-            items: [{ text: '前言', link: '/memo/' }, ...memo],
-          },
-          {
-            text: '关于我',
-            items: [
-              { text: '简介', link: '/about' },
-              { text: '联系', link: '/contact' },
-              { text: '书签', link: '/bookmarks' },
-            ],
-          },
-        ],
-        outlineTitle: '当前页',
-        lastUpdatedText: '最后更新时间',
-        docFooter: {
-          prev: '上一页',
-          next: '下一页',
-        },
-      },
-    },
-    en: {
-      label: 'English',
-      lang: 'en',
-      titleTemplate: 'This is viarotel',
-      description: 'This is viarotel',
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Memo', link: '/en/memo/' },
-          { text: 'Bookmarks', link: '/bookmarks' },
-          { text: 'About me', link: '/en/about' },
-        ],
-        sidebar: [
-          {
-            text: 'Memo',
-            items: [{ text: 'Preface', link: '/en/memo/' }, ...memo],
-          },
-          {
-            text: 'About me',
-            items: [
-              { text: 'About', link: '/en/about' },
-              { text: 'Contact', link: '/en/contact' },
-              { text: 'Bookmarks', link: '/bookmarks' },
-            ],
-          },
-        ],
-      },
-    },
-  },
   themeConfig: {
     logo: { src: '/images/avatar.gif', alt: 'viarotel' },
     search: {
@@ -204,6 +141,70 @@ export default {
         Released under the Apache License. 
       `,
       copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
+    },
+  },
+  locales: {
+    root: {
+      label: '简体中文',
+      titleTemplate: '这里是 viarotel',
+      description: '这里是 viarotel',
+      themeConfig: {
+        nav: [
+          { text: '主页', link: '/' },
+          { text: '备忘', link: '/memo/' },
+          { text: '书签', link: '/bookmarks' },
+          { text: '关于我', link: '/about' },
+        ],
+        sidebar: [
+          {
+            text: '备忘录',
+            items: [{ text: '前言', link: '/memo/' }, ...memo],
+          },
+          {
+            text: '关于我',
+            items: [
+              { text: '简介', link: '/about' },
+              { text: '联系', link: '/contact' },
+              { text: '书签', link: '/bookmarks' },
+            ],
+          },
+        ],
+        returnToTopLabel: '返回顶部',
+        outlineTitle: '当前页',
+        lastUpdatedText: '最后更新时间',
+        docFooter: {
+          prev: '上一页',
+          next: '下一页',
+        },
+      },
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      titleTemplate: 'This is viarotel',
+      description: 'This is viarotel',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { text: 'Memo', link: '/en/memo/' },
+          { text: 'Bookmarks', link: '/bookmarks' },
+          { text: 'About me', link: '/en/about' },
+        ],
+        sidebar: [
+          {
+            text: 'Memo',
+            items: [{ text: 'Preface', link: '/en/memo/' }, ...memo],
+          },
+          {
+            text: 'About me',
+            items: [
+              { text: 'About', link: '/en/about' },
+              { text: 'Contact', link: '/en/contact' },
+              { text: 'Bookmarks', link: '/bookmarks' },
+            ],
+          },
+        ],
+      },
     },
   },
   lastUpdated: true,

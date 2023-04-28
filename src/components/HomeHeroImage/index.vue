@@ -35,7 +35,7 @@ const loadNextLottie = () => {
 
 <template>
   <div
-    class="h-full flex items-center justify-center cursor-pointer"
+    class="h-full flex items-center justify-center cursor-pointer min-h-80"
     :title="
       lang === 'en'
         ? 'Click to switch to other o animation'

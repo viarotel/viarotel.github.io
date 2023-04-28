@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref, onServerPrefetch } from 'vue'
+import { reactive, ref } from 'vue'
 import { useData } from 'vitepress'
 import VPFeatures from 'vitepress/dist/client/theme-default/components/VPFeatures.vue'
 import request from '@/utils/request/index.js'
@@ -157,8 +157,10 @@ const features = ref([]);
         ></div>
       </span>
     </div>
-    <!-- v-if="features.length" -->
-    <VPFeatures :features="features" />
+    <VPFeatures
+      v-if="features.length"
+      :features="features"
+    />
   </div>
 </template>
 

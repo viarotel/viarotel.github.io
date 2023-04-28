@@ -1109,17 +1109,13 @@ packages:
       csstype: registry.npmmirror.com/csstype/2.6.21
     dev: true
 
-  registry.npmmirror.com/@vue/server-renderer/3.2.47_vue@3.2.47:
+  registry.npmmirror.com/@vue/server-renderer/3.2.47:
     resolution: {integrity: sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.2.47.tgz}
-    id: registry.npmmirror.com/@vue/server-renderer/3.2.47
     name: '@vue/server-renderer'
     version: 3.2.47
-    peerDependencies:
-      vue: 3.2.47
     dependencies:
       '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
-      vue: registry.npmmirror.com/vue/3.2.47
     dev: true
 
   registry.npmmirror.com/@vue/shared/3.2.47:
@@ -3521,7 +3517,7 @@ packages:
       '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.47
       '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc/3.2.47
       '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom/3.2.47
-      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.47_vue@3.2.47
+      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
     dev: true
 

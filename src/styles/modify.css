@@ -1,3 +1,8 @@
+/* 隐藏移动端丑陋的返回顶部 */
+.VPLocalNav {
+  @apply !hidden;
+}
+
 .VPNavBarTitle .VPImage.logo {
   @apply !rounded;
 }
