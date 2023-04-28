@@ -14,9 +14,3 @@ hero:
       text: Contact me
       link: /en/contact
 ---
-
-<script setup>
-  import ViaFeatures from '@/components/ViaFeatures/index.vue'
-</script>
-
-<ViaFeatures/>

@@ -1,14 +1,20 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
+import HomeHeroImage from './components/HomeHeroImage/index.vue'
+import ViaFeatures from './components/ViaFeatures/index.vue'
 
 const { Layout } = DefaultTheme
 </script>
 
 <template>
-  <Layout></Layout>
+  <Layout>
+    <template #home-hero-image>
+      <HomeHeroImage />
+    </template>
+    <template #home-features-before>
+      <ViaFeatures />
+    </template>
+  </Layout>
 </template>
-<style lang="postcss">
-.VPNavBarTitle .VPImage.logo {
-  @apply !rounded;
-}
-</style>
+
+<style lang="postcss"></style>

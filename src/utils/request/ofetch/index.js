@@ -46,7 +46,7 @@ export default ({
       onResponse: service.onResponse,
       onResponseError: service.onResponseError,
       ...options,
-    }).catch((err) => console.log(err))
+    }).catch((err) => console.warn(err))
 
     if (AbortSignal.clear) AbortSignal.clear()
 

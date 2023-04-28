@@ -1,12 +1,8 @@
 // https://vitepress.dev/reference/site-config
 // https://vitepress.dev/reference/default-theme-config
-import path from 'node:path'
-import useUnoCSS from 'unocss/vite'
-import useEslint from 'vite-plugin-eslint'
-import useRemoveConsole from 'vite-plugin-remove-console'
+
 import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
-import rewrite from './src/rewrite/index.js'
 
 const sidebar = generateSidebar({
   root: '/src/notes',
@@ -17,9 +13,11 @@ const sidebar = generateSidebar({
 })[0]?.items || []
 // console.log('sidebar', JSON.stringify(sidebar))
 
-const notes = (() => {
-  const category = sidebar.find((item) => item.text === 'Category')?.items || []
-  return category.filter((item) => item.text !== 'Index.md')
+const memo = (() => {
+  const value = (
+    sidebar.find((item) => item.text === 'Memo')?.items || []
+  ).filter((item) => item.text !== 'Index.md')
+  return value
 })()
 // console.log('notes', JSON.stringify(notes))
 
@@ -54,15 +52,6 @@ export default {
   ],
   srcDir: './src/notes',
   outDir: './dist',
-  vite: {
-    plugins: [useRemoveConsole(), useEslint({ fix: true }), useUnoCSS()],
-    resolve: {
-      alias: {
-        ...rewrite,
-        '@': path.resolve(__dirname, './src/'),
-      },
-    },
-  },
   vue: {
     template: {
       compilerOptions: {
@@ -78,14 +67,14 @@ export default {
       themeConfig: {
         nav: [
           { text: '主页', link: '/' },
-          { text: '备忘', link: '/category/' },
+          { text: '备忘', link: '/memo/' },
           { text: '书签', link: '/bookmarks' },
           { text: '关于我', link: '/about' },
         ],
         sidebar: [
           {
             text: '备忘录',
-            items: [{ text: '前言', link: '/category/' }, ...notes],
+            items: [{ text: '前言', link: '/memo/' }, ...memo],
           },
           {
             text: '关于我',
@@ -112,14 +101,14 @@ export default {
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Memo', link: '/en/category/' },
+          { text: 'Memo', link: '/en/memo/' },
           { text: 'Bookmarks', link: '/bookmarks' },
           { text: 'About me', link: '/en/about' },
         ],
         sidebar: [
           {
-            text: 'Memorandum',
-            items: [{ text: 'Preface', link: '/en/category/' }, ...notes],
+            text: 'Memo',
+            items: [{ text: 'Preface', link: '/en/memo/' }, ...memo],
           },
           {
             text: 'About me',

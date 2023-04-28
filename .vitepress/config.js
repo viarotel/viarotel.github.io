@@ -1,3 +1,7 @@
-import configs from "../vitepress.config.js";
+import vitepress from "../vitepress.config.js";
+import vite from "../vite.config.js";
 
-export default configs;
+export default {
+  ...vitepress,
+  vite,
+};

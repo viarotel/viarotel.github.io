@@ -1,17 +1,11 @@
 <script setup>
-import {
-  provide, reactive, ref, nextTick, computed,
-} from 'vue'
-
-import VPHero from 'vitepress/dist/client/theme-default/components/VPHero.vue'
+import { reactive, ref, computed } from 'vue'
 
 import { useData } from 'vitepress'
 
 import { sample } from 'lodash-es'
 
 import ViaLottiePlayer from '@/components/ViaLottiePlayer/index.vue'
-
-provide('hero-image-slot-exists', true)
 
 const { lang } = useData()
 
@@ -40,28 +34,24 @@ const loadNextLottie = () => {
 </script>
 
 <template>
-  <VPHero>
-    <template #home-hero-image>
-      <div
-        class="h-full flex items-center justify-center cursor-pointer"
-        :title="
-          lang === 'en'
-            ? 'Click to switch to other o animation'
-            : '点击切换其他动画'
-        "
-        @click="loadNextLottie"
-      >
-        <ViaLottiePlayer
-          class="translate-x-2 max-w-48 sm:max-w-72"
-          loop
-          autoplay
-          :el="(value) => (lottiePlayer = value)"
-          :src="currentLottieJSON"
-        >
-        </ViaLottiePlayer>
-      </div>
-    </template>
-  </VPHero>
+  <div
+    class="h-full flex items-center justify-center cursor-pointer"
+    :title="
+      lang === 'en'
+        ? 'Click to switch to other o animation'
+        : '点击切换其他动画'
+    "
+    @click="loadNextLottie"
+  >
+    <ViaLottiePlayer
+      class="translate-x-2 max-w-48 sm:max-w-72"
+      loop
+      autoplay
+      :el="(value) => (lottiePlayer = value)"
+      :src="currentLottieJSON"
+    >
+    </ViaLottiePlayer>
+  </div>
 </template>
 
 <style></style>

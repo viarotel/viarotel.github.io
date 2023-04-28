@@ -1,6 +1,8 @@
 <script setup>
-import { ref } from 'vue'
 // import { useData } from 'vitepress'
+
+import { ref } from 'vue'
+
 const props = defineProps({
   el: {
     type: Function,
@@ -8,14 +10,24 @@ const props = defineProps({
   },
 })
 
-// 仅在浏览器端加载 lottie-player
 const renderLottie = ref(false)
+
 if (!import.meta.env.SSR) {
-  import('@lottiefiles/lottie-player')
-    .then(() => {
+  (async () => {
+    try {
+      const { default: loadJS } = await import('load-js/src/load-js')
+
+      await loadJS({
+        type: 'module',
+        async: true,
+        url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
+      })
+
       renderLottie.value = true
-    })
-    .catch((e) => console.error(e))
+    } catch (error) {
+      console.warn('error')
+    }
+  })()
 }
 </script>
 

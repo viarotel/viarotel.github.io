@@ -44,6 +44,8 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'vue/no-mutating-props': 'off',
 
+    'prefer-promise-reject-errors': 'off',
+    'prefer-regex-literals': 'off',
     'implicit-arrow-linebreak': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-await-in-loop': 'off',
