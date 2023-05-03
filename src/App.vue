@@ -1,7 +1,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import HomeHeroImage from './components/HomeHeroImage/index.vue'
-import ViaFeatures from './components/ViaFeatures/index.vue'
+import HomeFeaturesBefore from './components/HomeFeaturesBefore/index.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -12,7 +12,7 @@ const { Layout } = DefaultTheme
       <HomeHeroImage />
     </template>
     <template #home-features-before>
-      <ViaFeatures />
+      <HomeFeaturesBefore />
     </template>
   </Layout>
 </template>
