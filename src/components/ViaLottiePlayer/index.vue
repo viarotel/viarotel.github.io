@@ -20,7 +20,8 @@ if (!import.meta.env.SSR) {
       await loadJS({
         type: 'module',
         async: true,
-        url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
+        url: 'https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@1.7.1/dist/lottie-player.esm.js',
+        // url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
       })
 
       renderLottie.value = true
