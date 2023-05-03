@@ -15,14 +15,16 @@ const renderLottie = ref(false)
 if (!import.meta.env.SSR) {
   (async () => {
     try {
-      const { default: loadJS } = await import('load-js/src/load-js')
+      // const { default: loadJS } = await import('load-js/src/load-js')
 
-      await loadJS({
-        type: 'module',
-        async: true,
-        url: 'https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@1.7.1/dist/lottie-player.esm.js',
-        // url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
-      })
+      // await loadJS({
+      //   type: 'module',
+      //   async: true,
+      //   url: 'https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@1.7.1/dist/lottie-player.esm.js',
+      //   // url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
+      // })
+
+      await import('@lottiefiles/lottie-player')
 
       renderLottie.value = true
     } catch (error) {
