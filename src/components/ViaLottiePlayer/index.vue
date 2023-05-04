@@ -18,10 +18,10 @@ if (!import.meta.env.SSR) {
       // const { default: loadJS } = await import('load-js/src/load-js')
 
       // await loadJS({
-      //   type: 'module',
+      //   // type: 'module',
       //   async: true,
-      //   url: 'https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@1.7.1/dist/lottie-player.esm.js',
-      //   // url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.esm.js',
+      //   url: 'https://cdn.bootcdn.net/ajax/libs/lottie-player/1.7.1/lottie-player.min.js',
+      //   // url: 'https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@1.7.1/dist/lottie-player.min.js',
       // })
 
       await import('@lottiefiles/lottie-player')
