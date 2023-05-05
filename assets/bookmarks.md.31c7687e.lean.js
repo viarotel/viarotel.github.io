@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as a,R as t}from"./chunks/framework.5a3d92d1.js";const k=JSON.parse('{"title":"Bookmarks","description":"","frontmatter":{},"headers":[],"relativePath":"bookmarks.md","lastUpdated":1683112708000}'),p={name:"bookmarks.md"},o=t("",508),n=[o];function l(h,s,f,i,c,g){return a(),r("div",null,n)}const m=e(p,[["render",l]]);export{k as __pageData,m as default};
