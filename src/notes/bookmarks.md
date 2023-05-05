@@ -2,7 +2,7 @@
 
 ## Bar
 
-[viarotel.site](https://viarotel.github.io/)
+[viarotel](https://viarotel.github.io/)
 
 [必应](https://www.bing.com/)
 
