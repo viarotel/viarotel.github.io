@@ -4,12 +4,17 @@ import gsap from 'gsap'
 import openPeepsSheet from './open-peeps-sheet.png'
 
 const config = {
+  el: 'canvas',
   src: openPeepsSheet,
   rows: 15,
   cols: 7,
 }
 
 export default {
+  config(params) {
+    Object.assign(config, params || {})
+    return this
+  },
   init() {
     // UTILS
     const randomRange = (min, max) => min + Math.random() * (max - min)
@@ -127,7 +132,7 @@ export default {
     img.onload = init
     img.src = config.src
 
-    const canvas = document.querySelector('#canvas')
+    const canvas = document.querySelector(config.el)
     const ctx = canvas.getContext('2d')
 
     const stage = {

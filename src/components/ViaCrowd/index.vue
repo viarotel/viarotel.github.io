@@ -4,13 +4,13 @@ import { ref, onMounted } from 'vue'
 import crowd from './core/crowd.js'
 
 onMounted(() => {
-  crowd.init()
+  crowd.config({ el: '#crowd' }).init()
 })
 </script>
 
 <template>
   <canvas
-    id="canvas"
+    id="crowd"
     title="Inspired by realrz.com"
     v-bind="$attrs"
     class="w-full h-120"
