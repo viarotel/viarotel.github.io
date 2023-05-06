@@ -1,7 +1,7 @@
 /* 隐藏移动端丑陋的返回顶部 */
-.VPLocalNav {
+/* .VPLocalNav {
   @apply !hidden;
-}
+} */
 
 .VPNavBarTitle .VPImage.logo {
   @apply !rounded;
