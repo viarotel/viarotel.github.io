@@ -9,6 +9,7 @@ specifiers:
   eslint-plugin-import: ^2.27.5
   eslint-plugin-vue: ^9.9.0
   ga-gtag: ^1.1.7
+  gsap: ^3.11.5
   load-js: ^3.1.1
   load-script: ^2.0.0
   lodash-es: ^4.17.21
@@ -27,6 +28,7 @@ dependencies:
   '@lottiefiles/lottie-player': registry.npmmirror.com/@lottiefiles/lottie-player/1.7.1
   dayjs: registry.npmmirror.com/dayjs/1.11.7
   ga-gtag: registry.npmmirror.com/ga-gtag/1.1.7
+  gsap: registry.npmmirror.com/gsap/3.11.5
   load-js: registry.npmmirror.com/load-js/3.1.1
   load-script: registry.npmmirror.com/load-script/2.0.0
   lodash-es: registry.npmmirror.com/lodash-es/4.17.21
@@ -1109,13 +1111,17 @@ packages:
       csstype: registry.npmmirror.com/csstype/2.6.21
     dev: true
 
-  registry.npmmirror.com/@vue/server-renderer/3.2.47:
+  registry.npmmirror.com/@vue/server-renderer/3.2.47_vue@3.2.47:
     resolution: {integrity: sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.2.47.tgz}
+    id: registry.npmmirror.com/@vue/server-renderer/3.2.47
     name: '@vue/server-renderer'
     version: 3.2.47
+    peerDependencies:
+      vue: 3.2.47
     dependencies:
       '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
+      vue: registry.npmmirror.com/vue/3.2.47
     dev: true
 
   registry.npmmirror.com/@vue/shared/3.2.47:
@@ -2134,6 +2140,12 @@ packages:
     name: grapheme-splitter
     version: 1.0.4
     dev: true
+
+  registry.npmmirror.com/gsap/3.11.5:
+    resolution: {integrity: sha512-Q89nKCLgoX5xUjznh9LcaIUkz54k1voNucT1Rpf9SJNFIQznBwFqt5qUUQbeVInFyN/n18OUJkpeI6CNEDt74w==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/gsap/-/gsap-3.11.5.tgz}
+    name: gsap
+    version: 3.11.5
+    dev: false
 
   registry.npmmirror.com/gzip-size/6.0.0:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==, registry: https://packages.aliyun.com/61e946d262ff79a3acfdbf93/npm/npm-registry/, tarball: https://registry.npmmirror.com/gzip-size/-/gzip-size-6.0.0.tgz}
@@ -3517,7 +3529,7 @@ packages:
       '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.47
       '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc/3.2.47
       '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom/3.2.47
-      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.47
+      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.47_vue@3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
     dev: true
 
