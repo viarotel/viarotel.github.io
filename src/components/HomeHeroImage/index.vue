@@ -10,22 +10,30 @@ import ViaLottiePlayer from '@/components/ViaLottiePlayer/index.vue'
 const { lang } = useData()
 
 const lotties = import.meta.globEager('@/assets/lotties/*.json')
-const entriesLotties = Object.entries(lotties)
 // console.log('lotties', lotties)
 
-const currentLottie = ref(sample(entriesLotties))
+const arrayLotties = Object.entries(lotties).map((item, index) => [
+  ...item,
+  index,
+])
+// console.log('arrayLotties', arrayLotties)
+const lengthLotties = arrayLotties.length
+
+const lottieIndex = ref(sample(arrayLotties)[2])
+// console.log('lottieIndex', lottieIndex.value)
+
+const currentLottie = computed(() => arrayLotties[lottieIndex.value])
 const currentLottieJSON = computed(
   () => currentLottie.value?.[1]?.default || null,
 )
-const currentLottiePath = computed(() => currentLottie.value?.[0] || '')
 
 const lottiePlayer = ref(null)
 const loadNextLottie = () => {
-  const filterLotties = entriesLotties.filter(
-    (item) => item[0] !== currentLottiePath.value,
-  )
-  currentLottie.value = sample(filterLotties)
-
+  if (lottieIndex.value < lengthLotties - 1) {
+    ++lottieIndex.value
+  } else {
+    lottieIndex.value = 0
+  }
   // console.log('lottiePlayer', lottiePlayer)
   if (lottiePlayer.value) {
     lottiePlayer.value.load(currentLottieJSON.value)

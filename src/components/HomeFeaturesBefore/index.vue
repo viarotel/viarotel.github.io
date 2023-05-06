@@ -6,9 +6,9 @@ import request from '@/utils/request/index.js'
 
 const { lang, theme } = useData()
 
+// console.log('theme.value', theme.value)
 const features = computed(() => {
   const repos = theme.value.async.repos || []
-  console.log('theme.value', theme.value)
   return repos
     .map((item) => ({
       ...item,
