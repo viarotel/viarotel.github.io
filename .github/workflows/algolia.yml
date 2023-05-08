@@ -3,7 +3,7 @@ name: Algolia Auto
 on:
   push:
     branches:
-      - docs
+      - main
 
 jobs:
   algolia_crawl:
@@ -14,10 +14,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      # We don't know when the site will be deployed, we just wait a few seconds
-      # Better solutions can be found
-      # - name: Sleep for 5m
-      #   run: sleep 300
+      # try to wait for the website deployment to complete
+      - name: Sleep for 5m
+        run: sleep 300
 
       - name: Algolia crawler creation and crawl
         uses: algolia/algoliasearch-crawler-github-actions@v1
