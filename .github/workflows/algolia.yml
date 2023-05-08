@@ -1,9 +1,10 @@
 name: Algolia Auto
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - main
+      - "main"
 
 jobs:
   algolia_crawl:
@@ -11,20 +12,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout this repo
-      - name: Checkout Repo
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       # try to wait for the website deployment to complete
       - name: Sleep for 5m
         run: sleep 300
 
-      - name: Algolia crawler creation and crawl
-        uses: algolia/algoliasearch-crawler-github-actions@v1
-        id: algolia_crawler
-        with: # mandatory parameters
-          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
-          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+      - name: Build & upload Algolia index
+        uses: razonyang/hugo-theme-bootstrap-algolia-action@v0
+        with:
+          # crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          # crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          site-url: "https://viarotel.site/"
-          override-config: true
+          algolia-index-name: viarotelio
