@@ -2,9 +2,8 @@ name: Algolia Auto
 
 on:
   push:
-    branches: [docs]
-  pull_request:
-    types: ["opened", "edited", "reopened", "synchronize"]
+    branches:
+      - docs
 
 jobs:
   algolia_crawl:
@@ -14,6 +13,11 @@ jobs:
       # checkout this repo
       - name: Checkout Repo
         uses: actions/checkout@v2
+
+      # We don't know when the site will be deployed, we just wait a few seconds
+      # Better solutions can be found
+      # - name: Sleep for 5m
+      #   run: sleep 300
 
       - name: Algolia crawler creation and crawl
         uses: algolia/algoliasearch-crawler-github-actions@v1
