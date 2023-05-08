@@ -20,7 +20,7 @@ jobs:
         run: sleep 300
 
       - name: Build & upload Algolia index
-        uses: razonyang/hugo-theme-bootstrap-algolia-action@v0
+        uses: razonyang/hugo-theme-bootstrap-algolia-action
         with:
           # crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
           # crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
