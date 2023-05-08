@@ -112,7 +112,7 @@ function Disable-ReaddVirtualMonitors {
 
 function Show-Header {
     Clear-Host
-    Write-Output "$Name"
+    Write-Output "$Name`n"
     Write-Output "Reviser by viarotel"
     Write-Output "Fork: https://github.com/ThatRex/windows-virtual-monitor"
     Write-Output "Core: https://www.amyuni.com/forum/viewtopic.php?t=3030`n"
@@ -124,9 +124,9 @@ function Show-Menu {
         Show-Header
 
         if (-not (Test-IsVirtualMonitorDriverInstalled) -or -not (Test-Path $DriverDir)) { 
-            Write-Output "Choose an option:"
+            Write-Output "Choose an option:`n"
             Write-Output "1. Download & Install Driver" 
-            Write-Output "0. Exit`n"
+            Write-Output "`n0. Exit`n"
 
             $Choice = Read-Host
             Show-Header
@@ -144,14 +144,14 @@ function Show-Menu {
             $Monitors = $Config.Monitors
 
             Write-Output "Virtual Monitors: $Monitors/4`n" 
-            Write-Output "Choose an option:"
+            Write-Output "Choose an option:`n"
             Write-Output "1. Add Virtual Monitor"
             Write-Output "2. Remove Virtual Monitor"
             # 在系统启动时重新添加虚拟监视器启用自动重新添加/禁用
             if (Test-IsAutoReaddEnabled) { Write-Output "3. Disable Auto Re-add" }
             else { Write-Output "3. Enable Auto Re-add (Re-adds virtual monitors on startup)" }
             Write-Output "`n9. Uninstall Driver"
-            Write-Output "0. Exit`n"
+            Write-Output "`n0. Exit`n"
 
             $Choice = Read-Host
             Show-Header
