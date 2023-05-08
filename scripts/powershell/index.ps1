@@ -6,7 +6,7 @@ param(
 
 if (!$script) { $script = $env:script }
 
-$name = "viarotel-scripts"
+$name = "Scripts by viarotel"
 $workDir = "$env:TEMP/$name"
 
 $scriptUrls = @{
@@ -42,11 +42,11 @@ if (-not $script) {
         $menu += ($index.ToString() + ". " + $key)
         $index++
     }
-    $menu += "Q. quit`n"
+    $menu += "`nQ. quit`n"
     do {
         Clear-Host
         Write-Host "$name`n"
-        Write-Host "Select a option:"
+        Write-Host "Select a option:`n"
         $menu | ForEach-Object { Write-Host $_ }
         $userInput = Read-Host
         if ($userInput -eq "q") { exit }
