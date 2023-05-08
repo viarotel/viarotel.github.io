@@ -9,6 +9,7 @@ if (!$script) { $script = $env:script }
 $name = "Scripts by viarotel"
 $workDir = "$env:TEMP/$name"
 
+# 手动刷新 https://purge.jsdelivr.net/gh/viarotel/viarotel.github.io@docs/scripts/powershell/windows-virtual-monitor.ps1
 $scriptUrls = @{
     "windows-virtual-monitor" = "https://cdn.jsdelivr.net/gh/viarotel/viarotel.github.io@docs/scripts/powershell/windows-virtual-monitor.ps1";
 }
