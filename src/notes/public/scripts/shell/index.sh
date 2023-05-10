@@ -1,14 +1,11 @@
-#!/bin/bash
+#!/bin/zsh
 
 echo "Scripts by viarotel v0.0.1"
 
 # 定义脚本对象
 declare -A scripts=(
-  ["Homebrew Installer"]="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh|bash"
-  ["Script 2"]="https://example.com/script2.sh"
+  ["Init_MacOS"]="https://cdn.jsdelivr.net/gh/viarotel/viarotel.github.io@docs/scripts/shell/init-macos.sh|bash"
 )
-
-default_script_option="Homebrew Installer"
 
 # 显示用户选择界面
 echo "请选择要加载的远程脚本选项："
@@ -57,4 +54,5 @@ echo $interpreter
 
 # 下载并执行远程脚本
 echo "Loading remote script: $script_name"
-# sudo curl -fsS --progress-bar "$remote_script" | $interpreter
+sudo -v
+sudo curl -fsS --progress-bar "$remote_script" | $interpreter -s
