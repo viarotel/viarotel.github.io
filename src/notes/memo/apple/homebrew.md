@@ -1,10 +1,40 @@
-# homebrew 配置及命令
+# homebrew 配置及常用命令
+
+## homebrew 安装
+
+### 安装并恢复备份
 
 ```zsh
-# 安装 homebrew
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-# 卸载 homebrew
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/main.sh)"
+```
+
+### 仅安装
+
+```zsh
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/install.sh)"
+```
+
+### 仅恢复备份
+
+```zsh
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/restore.sh)"
+```
+
+## homebrew 国内配置
+
+```zsh
+# 在 .zprofile 文件中加入
+export HOMEBREW_INSTALL_FROM_API=1
+export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+export HOMEBREW_PIP_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"
+```
+
+## homebrew 常用命令
+
+```zsh
 # 搜索包
 brew search qq
 # 安装命令行类型包
@@ -43,21 +73,4 @@ brew list
 brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 # 恢复备份的包
 brew bundle --file="~/Desktop/Brewfile"
-# 修复提示git命令无法使用或权限不足的问题
-git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-core
-git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-core
-# 手动配置中科大源
-# brew.git源
-git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
-# homebrew-core.git源
-git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
-# homebrew-cask.git源
-git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
-# 配置homebrew-bottles
-## zsh用户
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
-source ~/.zshrc
-## bash用户
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
-source ~/.bash_profile
 ```
