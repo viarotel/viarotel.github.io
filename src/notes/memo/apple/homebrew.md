@@ -1,23 +1,24 @@
 # homebrew 配置及常用命令
 
 ## homebrew 安装
+>  脚本不是最新? [刷新远程脚本](https://purge.jsdelivr.net/gh/viarotel-org/environments@main)
 
 ### 安装并恢复备份
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/main.sh)"
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/main.sh)"
 ```
 
 ### 仅安装
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/install.sh)"
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/install.sh)"
 ```
 
 ### 仅恢复备份
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel/scripts@main/shell/macos/homebrew/restore.sh)"
+/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/restore.sh)"
 ```
 
 ## homebrew 国内配置
@@ -30,6 +31,10 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 export HOMEBREW_PIP_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"
+# 设置以下常用 tap 的国内源
+brew tap --custom-remote --force-auto-update homebrew/bundle https://gitee.com/Homebrew2/homebrew-bundle.git
+brew tap --custom-remote --force-auto-update homebrew/cask https://gitee.com/Homebrew2/homebrew-cask.git
+brew tap --custom-remote --force-auto-update homebrew/services https://gitee.com/Homebrew2/homebrew-services.git
 ```
 
 ## homebrew 常用命令
@@ -73,4 +78,10 @@ brew list
 brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 # 恢复备份的包
 brew bundle --file="~/Desktop/Brewfile"
+# 查看 homebrew 源
+brew tap-info homebrew/core
+git -C "$(brew --repository)" remote -v
+brew tap-info homebrew/bundle
+brew tap-info homebrew/cask
+brew tap-info homebrew/services
 ```
