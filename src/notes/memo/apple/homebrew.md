@@ -1,24 +1,23 @@
 # homebrew 配置及常用命令
 
 ## homebrew 安装
->  脚本不是最新? [刷新远程脚本](https://purge.jsdelivr.net/gh/viarotel-org/environments@main)
 
 ### 安装并恢复备份
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/main.sh)"
+/bin/zsh -c "$(curl -fsSL https://gitee.com/viarotel/environments/raw/gitee/apple/shell/homebrew/main.sh)"
 ```
 
 ### 仅安装
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/install.sh)"
+/bin/zsh -c "$(curl -fsSL https://gitee.com/viarotel/environments/raw/gitee/apple/shell/homebrew/install.sh)"
 ```
 
 ### 仅恢复备份
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/viarotel-org/environments@main/apple/shell/homebrew/restore.sh)"
+/bin/zsh -c "$(curl -fsSL https://gitee.com/viarotel/environments/raw/gitee/apple/shell/homebrew/restore.sh)"
 ```
 
 ## homebrew 国内配置
