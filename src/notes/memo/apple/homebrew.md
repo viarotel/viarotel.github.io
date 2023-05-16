@@ -74,9 +74,9 @@ brew list
 # --describe: 为列表中的命令行工具加上说明性文字
 # --force: 直接覆盖之前生成的Brewfile文件。如果没有该参数，则询问你是否覆盖
 # --file: 生成的文件路径
-brew bundle dump --describe --force --file="~/Desktop/Brewfile"
+brew bundle dump --describe --force --file="~/Desktop/.brewfile"
 # 恢复备份的包
-brew bundle --file="~/Desktop/Brewfile"
+brew bundle --file="~/.brewfile"
 # 查看 homebrew 源
 brew tap-info homebrew/core
 git -C "$(brew --repository)" remote -v
