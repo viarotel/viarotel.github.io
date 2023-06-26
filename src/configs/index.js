@@ -1,7 +1,8 @@
 const isProduction = process.env.NODE_ENV === 'production'
 // const isDevelopment = process.env.NODE_ENV === 'development'
 
-export const title = 'viarotel'
+export const appName = 'viarotel'
+export const appInfo = ['我经常忘记一些事，它们琐碎却重要，我想记录它们。']
 
 // 项目基础路径
 export const appBasePath = isProduction ? './' : './'
@@ -15,7 +16,7 @@ export const proxyPath = '/proxy'
 export const proxyPort = 8088
 
 export default {
-  title,
+  appName,
   appBasePath,
   requestURL,
   useProxy,

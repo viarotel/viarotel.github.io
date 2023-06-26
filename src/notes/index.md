@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "viarotel"
-  text: ""
-  tagline: "我经常忘记一些事，它们琐碎却重要，我想记录它们。"
+  # name: ""
+  # text: ""
+  # tagline: ""
   actions:
     - theme: brand
       text: 了解我

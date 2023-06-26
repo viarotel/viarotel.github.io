@@ -4,6 +4,7 @@
 import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
 import async from './src/async/index.js'
+import { appName } from './src/configs/index.js'
 
 const sidebar = generateSidebar({
   root: '/src/notes',
@@ -26,7 +27,7 @@ const useImgTag = (src) =>
   `<img src="${src}" style="width: 20px; height: 20px;" class="hover:opacity-100 opacity-70 duration-500" />`
 
 export default {
-  title: 'viarotel',
+  title: appName,
   lang: 'zh-CN',
   head: [
     [
@@ -61,7 +62,7 @@ export default {
     },
   },
   themeConfig: {
-    logo: { src: '/images/avatar.gif', alt: 'viarotel' },
+    logo: { src: '/images/avatar.gif', alt: appName },
     search: {
       provider: 'algolia',
       options: {
@@ -148,8 +149,8 @@ export default {
   locales: {
     root: {
       label: '简体中文',
-      titleTemplate: '这里是 viarotel',
-      description: '这里是 viarotel',
+      titleTemplate: `这里是 ${appName}`,
+      description: `这里是 ${appName}`,
       themeConfig: {
         nav: [
           { text: '主页', link: '/' },
