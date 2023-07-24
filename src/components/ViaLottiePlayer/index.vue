@@ -27,7 +27,8 @@ if (!import.meta.env.SSR) {
       await import('@lottiefiles/lottie-player')
 
       renderLottie.value = true
-    } catch (error) {
+    }
+    catch (error) {
       console.warn('error')
     }
   })()
@@ -39,6 +40,5 @@ if (!import.meta.env.SSR) {
     v-if="renderLottie"
     v-bind="$attrs"
     :ref="props.el"
-  >
-  </lottie-player>
+  />
 </template>

@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref, computed } from 'vue'
+import { computed, ref } from 'vue'
 
 import { useData } from 'vitepress'
 
@@ -28,10 +28,11 @@ const currentLottieJSON = computed(
 )
 
 const lottiePlayer = ref(null)
-const loadNextLottie = () => {
+function loadNextLottie() {
   if (lottieIndex.value < lengthLotties - 1) {
     ++lottieIndex.value
-  } else {
+  }
+  else {
     lottieIndex.value = 0
   }
   // console.log('lottiePlayer', lottiePlayer)
@@ -57,8 +58,7 @@ const loadNextLottie = () => {
       autoplay
       :el="(value) => (lottiePlayer = value)"
       :src="currentLottieJSON"
-    >
-    </ViaLottiePlayer>
+    />
   </div>
 </template>
 

@@ -18,7 +18,7 @@ export default {
       '^/ungh': {
         target: 'https://ungh.cc',
         changeOrigin: true,
-        rewrite: (path) => path.replace(new RegExp(`^/ungh`), ''),
+        rewrite: path => path.replace(new RegExp(`^/ungh`), ''),
       },
     },
   },

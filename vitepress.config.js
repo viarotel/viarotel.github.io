@@ -17,14 +17,15 @@ const sidebar = generateSidebar({
 
 const memo = (() => {
   const value = (
-    sidebar.find((item) => item.text === 'Memo')?.items || []
-  ).filter((item) => item.text !== 'Index.md')
+    sidebar.find(item => item.text === 'Memo')?.items || []
+  ).filter(item => item.text !== 'Index.md')
   return value
 })()
 // console.log('notes', JSON.stringify(notes))
 
-const useImgTag = (src) =>
-  `<img src="${src}" style="width: 20px; height: 20px;" class="hover:opacity-100 opacity-70 duration-500" />`
+function useImgTag(src) {
+  return `<img src="${src}" style="width: 20px; height: 20px;" class="hover:opacity-100 opacity-70 duration-500" />`
+}
 
 export default {
   title: appName,
@@ -57,7 +58,7 @@ export default {
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => tag === 'lottie-player',
+        isCustomElement: tag => tag === 'lottie-player',
       },
     },
   },

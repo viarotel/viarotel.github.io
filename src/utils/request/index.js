@@ -15,7 +15,7 @@ export default request({
 
     // 将 Headers类型对象转换为普通对象
     const headers = configs.headers.toString() === '[object Headers]'
-      ? Object.fromEntries(headers.entries())
+      ? Object.fromEntries(configs.headers.entries())
       : configs.headers
 
     // console.log('onRequest.url', url)
