@@ -7,10 +7,10 @@ import async from './src/async/index.js'
 import { appName } from './src/configs/index.js'
 
 const sidebar = generateSidebar({
-  root: '/src/notes',
+  documentRootPath: '/src/notes',
   useTitleFromFileHeading: true,
   collapsed: false,
-  withIndex: false,
+  includeRootIndexFile: false,
   capitalizeFirst: true,
 })[0]?.items || []
 // console.log('sidebar', JSON.stringify(sidebar))
