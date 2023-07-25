@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@viarotel-org/eslint-config':
-    specifier: ^0.4.2
-    version: 0.4.2(eslint@8.41.0)(typescript@5.1.6)
+    specifier: ^0.4.3
+    version: 0.4.3(eslint@8.41.0)(typescript@5.1.6)
   '@viarotel-org/unocss-config':
     specifier: ^0.4.1
     version: 0.4.1(postcss@8.4.27)(vite@4.4.6)
@@ -64,8 +64,8 @@ devDependencies:
 
 packages:
 
-  /@viarotel-org/eslint-config@0.4.2(eslint@8.41.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-WaAlqULKjCBHgPjfvtHQKsoKiRtKmGZOnzgU9y0ESH+su3nIeGQol/PCzV4+/i+UInSXoEkB+dBX8g37Wnvlbw==}
+  /@viarotel-org/eslint-config@0.4.3(eslint@8.41.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-grc+jDyYiNeT8/yuxR2fECPOgS4DZeNAryi34JWT703o52aFYnAhStnz3WlXQRaUbzmZGNMzm6nk6I3w1KL2hg==}
     dependencies:
       '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config@0.39.8(eslint@8.41.0)(typescript@5.1.6)
     transitivePeerDependencies:

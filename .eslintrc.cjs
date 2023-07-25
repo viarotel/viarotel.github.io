@@ -1,6 +1,4 @@
 module.exports = {
-  extends: "@viarotel-org",
-  rules: {
-    "prefer-regex-literals": "off",
-  },
+  extends: '@viarotel-org',
+  rules: {},
 }
