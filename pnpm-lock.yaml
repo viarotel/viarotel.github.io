@@ -38,11 +38,11 @@ dependencies:
 
 devDependencies:
   '@viarotel-org/eslint-config':
-    specifier: ^0.4.3
-    version: 0.4.3(eslint@8.41.0)(typescript@5.1.6)
+    specifier: ^0.5.8
+    version: 0.5.8(eslint@8.41.0)(typescript@5.1.6)
   '@viarotel-org/unocss-config':
-    specifier: ^0.4.1
-    version: 0.4.1(postcss@8.4.27)(vite@4.4.6)
+    specifier: ^0.5.8
+    version: 0.5.8(postcss@8.4.27)(vite@4.4.6)
   eslint:
     specifier: ^8.41.0
     version: registry.npmmirror.com/eslint@8.41.0
@@ -64,8 +64,8 @@ devDependencies:
 
 packages:
 
-  /@viarotel-org/eslint-config@0.4.3(eslint@8.41.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-grc+jDyYiNeT8/yuxR2fECPOgS4DZeNAryi34JWT703o52aFYnAhStnz3WlXQRaUbzmZGNMzm6nk6I3w1KL2hg==}
+  /@viarotel-org/eslint-config@0.5.8(eslint@8.41.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-3oT9bLZXD2smk+8p4eyxOd5/JY8gVHia5KG3Y/UNl4lx6phiG9f7jeg5FQEZuAoOXory/EPMSsVw6pyxu7cCmg==}
     dependencies:
       '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config@0.39.8(eslint@8.41.0)(typescript@5.1.6)
     transitivePeerDependencies:
@@ -77,8 +77,8 @@ packages:
       - typescript
     dev: true
 
-  /@viarotel-org/unocss-config@0.4.1(postcss@8.4.27)(vite@4.4.6):
-    resolution: {integrity: sha512-PrY3feWVytiheQr4yT66oiv2/M8KnT/xWI40ToJM1tDL6GDvhbnbBpETJlG66aUb2rLKeD8DfeK0WZdwQtHP2Q==}
+  /@viarotel-org/unocss-config@0.5.8(postcss@8.4.27)(vite@4.4.6):
+    resolution: {integrity: sha512-Me9s7cOmcwMr2UyaYiQ6nS0SbeqbgLiUI4Dyj+BfxRFWb8vTTvpCQKM6i6itPeNmnmo9fAQQF1IPehTUu3QAiA==}
     dependencies:
       '@unocss/transformer-directives': registry.npmmirror.com/@unocss/transformer-directives@0.53.6
       unocss: registry.npmmirror.com/unocss@0.53.6(postcss@8.4.27)(vite@4.4.6)

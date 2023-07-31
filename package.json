@@ -26,8 +26,8 @@
     "qs": "^6.11.1"
   },
   "devDependencies": {
-    "@viarotel-org/eslint-config": "^0.4.3",
-    "@viarotel-org/unocss-config": "^0.4.1",
+    "@viarotel-org/eslint-config": "^0.5.8",
+    "@viarotel-org/unocss-config": "^0.5.8",
     "eslint": "^8.41.0",
     "unocss": "^0.53.6",
     "vite-plugin-eslint": "^1.8.1",
