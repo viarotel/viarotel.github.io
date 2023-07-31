@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "viarotel",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@unocss/transformer-directives": "^0.53.6",
     "eslint": "^8.41.0",

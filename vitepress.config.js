@@ -140,7 +140,7 @@ export default {
         ,
         Visitors <span id="busuanzi_site_uv"></span>
         <br />
-        Released under the Apache License. 
+        Released under the MIT License. 
       `,
       copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
     },
