@@ -2,7 +2,7 @@
 import VPHero from 'vitepress/dist/client/theme-default/components/VPHero.vue'
 import { useData } from 'vitepress'
 
-import { appName, appInfo } from '@/configs/index.js'
+import { appInfo, appName } from '@/configs/index.js'
 
 const { frontmatter: fm } = useData()
 </script>
@@ -20,7 +20,11 @@ const { frontmatter: fm } = useData()
     }"
     :actions="fm.hero.actions"
   >
-    <template #home-hero-info><slot name="home-hero-info" /></template>
-    <template #home-hero-image><slot name="home-hero-image" /></template>
+    <template #home-hero-info>
+      <slot name="home-hero-info" />
+    </template>
+    <template #home-hero-image>
+      <slot name="home-hero-image" />
+    </template>
   </VPHero>
 </template>

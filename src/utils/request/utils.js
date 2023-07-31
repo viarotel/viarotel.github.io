@@ -5,7 +5,7 @@
 /**
  * 用于兼容低版本浏览器不支持 AbortSignal API 以实现超时
  */
-export const abortSignalTimeoutPolyfill = () => {
+export function abortSignalTimeoutPolyfill() {
   if (AbortSignal.timeout) {
     return
   }
@@ -64,8 +64,8 @@ export const abortSignalTimeoutPolyfill = () => {
 //   }
 // }
 
-export const binaryParser = async (response, { dataKey = '_data' } = {}) =>
-  new Promise((resolve) => {
+export async function binaryParser(response, { dataKey = '_data' } = {}) {
+  return new Promise((resolve) => {
     // console.log('response', response)
     const data = response[dataKey]
     let headers = response.headers
@@ -85,13 +85,15 @@ export const binaryParser = async (response, { dataKey = '_data' } = {}) =>
       errorData.addEventListener('loadend', (data) => {
         try {
           resData = JSON.parse(data.target.result)
-        } catch (e) {
+        }
+        catch (e) {
           resData = ''
         }
         resolve(resData)
       })
       errorData.readAsText(blob)
-    } else {
+    }
+    else {
       resData = {
         fileName: window.decodeURIComponent(fileName),
         blob: data,
@@ -113,3 +115,4 @@ export const binaryParser = async (response, { dataKey = '_data' } = {}) =>
       }
     }
   })
+}

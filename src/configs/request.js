@@ -1,10 +1,11 @@
-import { requestURL, proxyPath, useProxy } from './index'
+import { proxyPath, requestURL, useProxy } from './index'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 let tempURL = ''
 if (useProxy) {
   tempURL = isDevelopment ? proxyPath : window.location.origin
-} else {
+}
+else {
   tempURL = requestURL
 }
 // 请求域名

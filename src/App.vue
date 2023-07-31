@@ -7,7 +7,7 @@ const { Layout } = DefaultTheme
 </script>
 
 <template>
-  <Layout>
+  <Layout class="">
     <template #home-hero-image>
       <HomeHeroImage />
     </template>

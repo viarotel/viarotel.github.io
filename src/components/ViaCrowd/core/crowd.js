@@ -1,5 +1,5 @@
 /* eslint-disable no-self-assign */
-/* eslint-disable no-bitwise */
+
 import gsap from 'gsap'
 import openPeepsSheet from './open-peeps-sheet.png'
 
@@ -19,17 +19,17 @@ export default {
     // UTILS
     const randomRange = (min, max) => min + Math.random() * (max - min)
 
-    const randomIndex = (array) => randomRange(0, array.length) | 0
+    const randomIndex = array => randomRange(0, array.length) | 0
 
     const removeFromArray = (array, i) => array.splice(i, 1)[0]
 
     const removeItemFromArray = (array, item) =>
       removeFromArray(array, array.indexOf(item))
 
-    const removeRandomFromArray = (array) =>
+    const removeRandomFromArray = array =>
       removeFromArray(array, randomIndex(array))
 
-    const getRandomFromArray = (array) => array[randomIndex(array) | 0]
+    const getRandomFromArray = array => array[randomIndex(array) | 0]
 
     // TWEEN FACTORIES
 
@@ -45,7 +45,8 @@ export default {
         startX = -peep.width
         endX = stage.width
         peep.scaleX = 1
-      } else {
+      }
+      else {
         startX = stage.width + peep.width
         endX = 0
         peep.scaleX = -1

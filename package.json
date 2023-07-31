@@ -1,30 +1,17 @@
 {
   "name": "viarotel-site",
+  "type": "module",
   "version": "1.0.0",
   "description": "viarotel-site",
-  "type": "module",
+  "author": "viarotel",
+  "license": "ISC",
+  "keywords": [],
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "lint": "pnpm run lint:js",
-    "lint:js": "eslint . .vitepress --ext .vue,.js,.ts,.jsx,.tsx --ignore-path .eslintignore --fix"
-  },
-  "keywords": [],
-  "author": "viarotel",
-  "license": "MIT",
-  "devDependencies": {
-    "@unocss/transformer-directives": "^0.53.6",
-    "eslint": "^8.41.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-vue": "^9.14.0",
-    "unocss": "^0.53.6",
-    "vite-plugin-eslint": "^1.8.1",
-    "vite-plugin-remove-console": "^2.1.1",
-    "vitepress": "1.0.0-beta.6",
-    "vitepress-sidebar": "^1.8.2",
-    "vue-eslint-parser": "^9.3.0"
+    "lint:js": "eslint . .vitepress --ext .vue,.js,.ts,.jsx,.tsx,.json --ignore-path .eslintignore --fix"
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.7.1",
@@ -37,5 +24,15 @@
     "ofetch": "^1.0.1",
     "pathe": "^1.1.0",
     "qs": "^6.11.1"
+  },
+  "devDependencies": {
+    "@viarotel-org/eslint-config": "^0.4.3",
+    "@viarotel-org/unocss-config": "^0.4.1",
+    "eslint": "^8.41.0",
+    "unocss": "^0.53.6",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-remove-console": "^2.1.1",
+    "vitepress": "1.0.0-beta.6",
+    "vitepress-sidebar": "^1.8.2"
   }
 }
