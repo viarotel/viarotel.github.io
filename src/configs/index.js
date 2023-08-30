@@ -13,13 +13,4 @@ export const useProxy = false
 // 代理路径
 export const proxyPath = '/proxy'
 // 代理端口号
-export const proxyPort = 8088
-
-export default {
-  appName,
-  appBasePath,
-  requestURL,
-  useProxy,
-  proxyPath,
-  proxyPort,
-}
+export const proxyPort = 1996

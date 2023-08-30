@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import HomeHeroImage from './components/HomeHeroImage/index.vue'
 import HomeFeaturesBefore from './components/HomeFeaturesBefore/index.vue'
+import WalineComment from './components/WalineComment/index.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -13,6 +14,9 @@ const { Layout } = DefaultTheme
     </template>
     <template #home-features-before>
       <HomeFeaturesBefore />
+    </template>
+    <template #doc-after>
+      <WalineComment />
     </template>
   </Layout>
 </template>

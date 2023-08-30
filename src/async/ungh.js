@@ -1,6 +1,6 @@
 import request from '../utils/request/index'
 
-const baseURL = 'https://ungh.cc/'
+const baseURL = 'https://ungh.cc'
 
 async function getRepos() {
   const res = await request

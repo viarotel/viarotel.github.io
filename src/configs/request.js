@@ -14,9 +14,3 @@ export const baseURL = tempURL
 export const responseSuccessCode = '0000'
 // 超时时间
 export const timeout = 60 * 1000
-
-export default {
-  baseURL,
-  responseSuccessCode,
-  timeout,
-}

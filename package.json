@@ -2,6 +2,7 @@
   "name": "viarotel-site",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.6.12",
   "description": "viarotel-site",
   "author": "viarotel",
   "license": "ISC",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.7.1",
+    "@waline/client": "^2.15.7",
     "dayjs": "^1.11.7",
     "ga-gtag": "^1.1.7",
     "gsap": "^3.11.5",
@@ -26,8 +28,8 @@
     "qs": "^6.11.1"
   },
   "devDependencies": {
-    "@viarotel-org/eslint-config": "^0.5.8",
-    "@viarotel-org/unocss-config": "^0.5.8",
+    "@viarotel-org/eslint-config": "^0.5.10",
+    "@viarotel-org/unocss-config": "^0.5.9",
     "eslint": "^8.41.0",
     "unocss": "^0.53.6",
     "vite-plugin-eslint": "^1.8.1",
