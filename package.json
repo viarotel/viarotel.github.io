@@ -30,7 +30,8 @@
   "devDependencies": {
     "@viarotel-org/eslint-config": "^0.5.10",
     "@viarotel-org/unocss-config": "^0.5.9",
-    "eslint": "^8.41.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2",
     "unocss": "^0.53.6",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-remove-console": "^2.1.1",

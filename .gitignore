@@ -7,13 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-.vitepress/cache
-.vitepress/.temp
-
 # Editor directories and files
 .vscode
 !.vscode/extensions.json
@@ -27,3 +20,13 @@ dist-ssr
 *.lock
 
 # user
+node_modules
+dist
+dist-ssr
+*.local
+.vitepress/cache
+.vitepress/.temp
+
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
