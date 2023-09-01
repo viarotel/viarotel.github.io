@@ -1,21 +1,3 @@
-/* 隐藏移动端丑陋的返回顶部 */
-/* .VPLocalNav {
-  @apply !hidden;
-} */
-
-.VPNavBarTitle .VPImage.logo {
-  @apply !rounded;
-}
-
-.VPHero .image-bg {
-  opacity: 0.7;
-  transition: opacity 1s ease;
-}
-
-.VPHero .image-container:hover .image-bg {
-  opacity: 0.2;
-}
-
 .vp-code-group .tabs label {
   background-color: transparent;
 }
@@ -27,6 +9,16 @@ table {
 
 .custom-block.tip .custom-block-title {
   color: var(--vp-c-brand);
+}
+
+.VPHero .image-bg {
+  z-index: 1;
+  opacity: 0.8;
+  transition: opacity 1s ease;
+}
+
+.VPHero .image-container:hover .image-bg {
+  opacity: 0.2;
 }
 
 /**

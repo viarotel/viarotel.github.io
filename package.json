@@ -32,10 +32,10 @@
     "@viarotel-org/unocss-config": "^0.5.9",
     "eslint": "^8.48.0",
     "typescript": "^5.2.2",
-    "unocss": "^0.53.6",
+    "unocss": "^0.53.5",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-remove-console": "^2.1.1",
-    "vitepress": "1.0.0-beta.6",
-    "vitepress-sidebar": "^1.8.2"
+    "vitepress": "1.0.0-rc.10",
+    "vitepress-sidebar": "^1.11.0"
   }
 }

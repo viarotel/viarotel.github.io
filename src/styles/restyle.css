@@ -1,0 +1,7 @@
+.VPNavBarTitle .VPImage.logo {
+  @apply !rounded;
+}
+
+.VPHero .image-bg {
+  z-index: 0 !important;
+}
