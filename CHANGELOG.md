@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/viarotel/viarotel.github.io/compare/v1.0.1...v1.1.0) (2023-09-01)
+
+
+### Features
+
+* 📝添加设置镜像源的备忘 ([2654622](https://github.com/viarotel/viarotel.github.io/commit/26546227599a774b1ca5e8a210d21bbbcf1e4a58))
+
 ## [1.0.1](https://github.com/viarotel/viarotel.github.io/compare/v1.0.0...v1.0.1) (2023-08-30)
 
 
