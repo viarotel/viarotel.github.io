@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/viarotel/viarotel.github.io/compare/v1.1.0...v1.2.0) (2023-09-01)
+
+
+### Features
+
+* 🚀 项目依赖及交互样式更新 ([9ecb83a](https://github.com/viarotel/viarotel.github.io/commit/9ecb83abff5c258a2c54abfb6a82529abecef4a6))
+
 ## [1.1.0](https://github.com/viarotel/viarotel.github.io/compare/v1.0.1...v1.1.0) (2023-09-01)
 
 
