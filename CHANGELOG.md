@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/viarotel/viarotel.github.io/compare/v1.2.0...v1.2.1) (2023-09-01)
+
+
+### Bug Fixes
+
+* 🔧 修复github脚本构建失败的问题 ([2fcc288](https://github.com/viarotel/viarotel.github.io/commit/2fcc28820dea0f2001b5e2fffc8fb0fec9ed8ec1))
+
 ## [1.2.0](https://github.com/viarotel/viarotel.github.io/compare/v1.1.0...v1.2.0) (2023-09-01)
 
 
