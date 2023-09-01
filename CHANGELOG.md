@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/viarotel/viarotel.github.io/compare/v1.2.1...v1.2.2) (2023-09-01)
+
+
+### Bug Fixes
+
+* 🔧 修复渐变动画不工作的问题 ([903c8bb](https://github.com/viarotel/viarotel.github.io/commit/903c8bb16845f1fae7b2923e5b7c7661650fa9a6))
+
 ## [1.2.1](https://github.com/viarotel/viarotel.github.io/compare/v1.2.0...v1.2.1) (2023-09-01)
 
 
