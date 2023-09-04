@@ -62,6 +62,9 @@ export default {
       },
     },
   },
+  sitemap: {
+    hostname: 'https://viarotel.eu.org',
+  },
   themeConfig: {
     logo: { src: '/images/avatar.gif', alt: appName },
     search: {
