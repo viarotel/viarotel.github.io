@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/viarotel/viarotel.github.io/compare/v1.2.2...v1.3.0) (2023-09-04)
+
+
+### Features
+
+* 🚀 评论系统加入彩虹色支持 ([96cabc9](https://github.com/viarotel/viarotel.github.io/commit/96cabc973a0f51c649eca509b12aaceec3797181))
+
 ## [1.2.2](https://github.com/viarotel/viarotel.github.io/compare/v1.2.1...v1.2.2) (2023-09-01)
 
 
