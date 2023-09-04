@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/viarotel/viarotel.github.io/compare/v1.3.0...v1.4.0) (2023-09-04)
+
+
+### Features
+
+* 🚀 add sitemap.xml ([aa09d81](https://github.com/viarotel/viarotel.github.io/commit/aa09d81aec86a73ac76ab1c14a4a268b9389a09e))
+
+
+### Bug Fixes
+
+* 🐛 bugfix ([4b5245d](https://github.com/viarotel/viarotel.github.io/commit/4b5245d57dff18c63ff67fa9ec1ff49062faa33a))
+* 🔧 修复 timestamp 会被提交的问题 ([dfafcb9](https://github.com/viarotel/viarotel.github.io/commit/dfafcb909e3c45f486b5851cb997f60d75da4162))
+
+
+### Performance Improvements
+
+* 🔨 重构获取数据接口的逻辑以提高性能 ([a72d239](https://github.com/viarotel/viarotel.github.io/commit/a72d239985594374e64e0d6a06524ea0d6eb7591))
+
 ## [1.3.0](https://github.com/viarotel/viarotel.github.io/compare/v1.2.2...v1.3.0) (2023-09-04)
 
 
