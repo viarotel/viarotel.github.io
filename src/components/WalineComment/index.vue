@@ -60,4 +60,9 @@ watch(
   <div id="waline" class="-mx-2 pt-16"></div>
 </template>
 
-<style lang="postcss"></style>
+<style lang="postcss">
+:root {
+  --waline-theme-color: var(--vp-c-brand-1) !important;
+  --waline-active-color: var(--vp-c-brand-dark) !important;
+}
+</style>
