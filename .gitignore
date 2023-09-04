@@ -30,3 +30,4 @@ dist-ssr
 pnpm-lock.yaml
 yarn.lock
 package-lock.json
+config.js.timestamp*
