@@ -3,7 +3,6 @@
 
 import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
-import async from './src/async/index.js'
 import { appName } from './src/configs/index.js'
 
 const sidebar = generateSidebar({
@@ -148,7 +147,6 @@ export default {
       `,
       copyright: `Copyright © 2023-${dayjs().format('YYYY')} viarotel`,
     },
-    async,
   },
   locales: {
     root: {

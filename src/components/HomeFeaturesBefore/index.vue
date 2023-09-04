@@ -3,11 +3,12 @@ import { computed } from 'vue'
 import { useData } from 'vitepress'
 import VPFeatures from 'vitepress/dist/client/theme-default/components/VPFeatures.vue'
 
-const { lang, theme } = useData()
+import { data } from '@/data/repos.data.js'
 
-// console.log('theme.value', theme.value)
+const { lang } = useData()
+
 const features = computed(() => {
-  const repos = theme.value.async.repos || []
+  const repos = data.repos || []
   return repos
     .map(item => ({
       ...item,
@@ -33,10 +34,7 @@ const features = computed(() => {
         />
       </span>
     </div>
-    <VPFeatures
-      v-if="features.length"
-      :features="features"
-    />
+    <VPFeatures v-if="features.length" :features="features" />
   </div>
 </template>
 
