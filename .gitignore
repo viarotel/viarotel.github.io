@@ -26,8 +26,8 @@ dist-ssr
 *.local
 .vitepress/cache
 .vitepress/.temp
+.vitepress/config.js.timestamp*
 
 pnpm-lock.yaml
 yarn.lock
 package-lock.json
-config.js.timestamp*
