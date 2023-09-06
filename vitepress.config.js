@@ -74,7 +74,7 @@ export default {
         indexName: 'viarotelio',
         locales: {
           root: {
-            placeholder: '搜索文档',
+            placeholder: '请输入关键词',
             translations: {
               button: {
                 buttonText: '搜索',
@@ -113,6 +113,9 @@ export default {
                 },
               },
             },
+          },
+          en: {
+            placeholder: 'Please enter a keyword',
           },
         },
       },
