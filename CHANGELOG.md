@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/viarotel/viarotel.github.io/compare/v1.4.0...v1.4.1) (2023-09-06)
+
+
+### Bug Fixes
+
+* 📝 修复搜索模块国际化语义问题 ([6c60222](https://github.com/viarotel/viarotel.github.io/commit/6c60222cc171813ab0de2e820ab3d611e5c7f101))
+
 ## [1.4.0](https://github.com/viarotel/viarotel.github.io/compare/v1.3.0...v1.4.0) (2023-09-04)
 
 
