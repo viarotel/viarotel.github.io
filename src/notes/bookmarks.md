@@ -1,8 +1,8 @@
 # Bookmarks
 
-## Bar
+### 书签栏
 
-[viarotel](https://viarotel.github.io/)
+[viarotel](https://viarotel.eu.org/)
 
 [必应](https://www.bing.com/)
 
@@ -14,31 +14,53 @@
 
 [Google 翻译](https://translate.google.com/?hl=zh-CN&tab=TT)
 
+[Gmail](https://mail.google.com/mail)
+
+[npm](https://www.npmjs.com/)
+
 [GitHub](https://github.com/)
 
 [码云](https://gitee.com/)
 
-[Npm](https://www.npmjs.com/)
+[Homebrew](https://brew.sh/index_zh-cn)
+
+[TS Docs](https://www.typescriptlang.org/zh/docs/handbook/2/basic-types.html)
+
+[鹿鸣](https://elk.zone/home)
 
 [V2EX](https://www.v2ex.com/)
+
+[Twitter](https://twitter.com/)
+
+[HackerNews](https://news.ycombinator.com/news)
+
+[Quora](https://www.quora.com/)
 
 [知乎](https://www.zhihu.com/?utm_source=gold_browser_extension)
 
 [微博](https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F)
 
-[Twitter](https://twitter.com/)
-
-[Homebrew](https://brew.sh/index_zh-cn)
+[iTab](https://go.itab.link/)
 
 [菜鸟教程](http://www.runoob.com/)
 
 [MDN](https://developer.mozilla.org/zh-CN/)
 
-[VitePress | Vite 静态网站 Markdown](https://vitepress.dev/)
+[VitePress](https://vitepress.dev/)
 
 [Vue3](https://cn.vuejs.org/)
 
+[Waline](https://waline-service.netlify.app/.netlify/functions/comment)
+
 [Vite](https://cn.vitejs.dev/)
+
+[FindVue](https://madewithvuejs.com/)
+
+[Twitter](https://twitter.com/)
+
+[HelloGitHub](https://hellogithub.com/)
+
+[RxJS](https://rxjs.dev/)
 
 [Vue Eslint Plugin | Vue 的 Eslint 插件](https://eslint.vuejs.org/)
 
@@ -54,9 +76,13 @@
 
 [鱼塘热榜](https://mo.fish/)
 
-## AI
+[JETBRA.IN CHECKER | 激活 密钥 工具 jetbra](https://3.jetbra.in/)
 
-[Bard | Google AI | 谷歌人工智能](https://bard.google.com/)
+### AI
+
+[Poe ChatGPT | 提供聚合的 AI 服务 | 聚合 AI gpt4 claude](https://poe.com/ChatGPT)
+
+[Bard | Google AI 谷歌人工智能](https://bard.google.com/)
 
 [ChatGPT | OpenAI 开源的对话 AI 模型](https://chat.openai.com/chat)
 
@@ -66,7 +92,7 @@
 
 [文心一言 | 百度开发的对话式 AI 语言模型](https://yiyan.baidu.com/)
 
-[通义千问 | 阿里开发的对话式 AI 语言模型](https://tongyi.aliyun.com/)
+[通义千问 | 阿里开发的对话式 AI 语言模型](https://qianwen.aliyun.com/chat)
 
 [RoomGPT | 上传房间图 AI 帮你生成理想中的家](https://www.roomgpt.io/dream)
 
@@ -74,17 +100,11 @@
 
 [OpenAI API | OpenAI API 控制台](https://platform.openai.com/)
 
-## Business
+[ChatLaw](https://chatlaw.cloud/lawchat/#/)
 
-[Apple Developer | 苹果开发者平台](https://developer.apple.com/)
+[Ai 导航 | 最新最前沿的 ai 产品](https://www.ainavpro.com/)
 
-[微信公众平台 | 提供微信公众号 微信小程序等服务](https://mp.weixin.qq.com/)
-
-[微信开放平台 | 提供微信开发接口服务](https://open.weixin.qq.com/)
-
-[微信支付 | 提供微信支付接口服务](https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F)
-
-## Apple
+### Apple
 
 [Microsoft Remote Desktop | MacOS 微软远程桌面控制软件](https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac)
 
@@ -154,7 +174,7 @@
 
 [Paragon seagate | macOS 适用与希捷硬盘的 NTFS 读写工具](https://www.seagate.com/tw/zh/support/software/paragon/)
 
-## Microsoft
+### Microsoft
 
 [MSDN | 我告诉你 微软原版镜像 软件工具下载](https://msdn.itellyou.cn/)
 
@@ -224,207 +244,249 @@
 
 [Bitser | 对 Windows 软件包进行解压](https://www.bitser.org/)
 
-## Google
+### Google
 
 [FydeOS | 类 ChromeOS 操作系统](https://fydeos.com/)
 
-## Tools
-
-[阿里云盘 TV | 好用的第三方阿里云盘 TV](https://aliyunpantv.gitlab.io/)
-
-[千库网 | 免费图片背景素材下载](https://588ku.com/)
-
-[喵狸盘搜 | 阿里云盘资源搜索](https://www.alipansou.com/)
-
-[石墨文档 | 国内优秀的在线文档平台](https://shimo.im/welcome)
-
-[Remove.bg | 在线消除图片中的背景](https://www.remove.bg/zh)
-
-[符号大全 | 特殊符号大全](http://www.fhdq.net/)
-
-[Greasyfork | 油猴用户脚本分享](https://greasyfork.org/zh-CN/scripts?utf8=%E2%9C%93&q=Userscript%2B)
-
-[Babel | 在线 javascript 兼容转换](https://www.babeljs.cn/repl)
-
-[CSS Grid Generator | CSS Grid GUI 工具](https://cssgrid-generator.netlify.app/)
-
-[dedg3 | 在线屏幕保护程序](https://dedg3.com/)
-
-[屏幕检测 | 在线显示器坏点检测工具](https://screen.51240.com/#welcome)
-
-[草料二维码 | 好用的在线二维码生成器](https://cli.im/)
-
-[BugMeNot | 查找并提供需要登录资源网站的账号密码](http://bugmenot.com/)
-
-[AutoAHK | 键盘脚本工具中文网](https://www.autoahk.com/)
-
-[Photopea | 在线版 Photoshop](https://www.photopea.com/)
-
-[字体天下 | 提供各类字体的免费下载和在线预览服务](https://www.fonts.net.cn/)
-
-[ApiPost | 可直接生成文档的 API 调试、管理工具](https://www.apipost.cn/#)
-
-[AlternativeTo | 查询可替代的软件](https://alternativeto.net/)
-
-[Typora | 好用的 Markdown 编辑器](https://typora.io/)
-
-[NATAPP | 内网穿透基于 ngrok 的国内高速内网映射工具](https://natapp.cn/)
-
-[ColorDrop | 在线色彩搭配工具](https://colordrop.io/random/)
-
-[Learn Git Branching | 通过互动学习 Git 操作](https://learngitbranching.js.org/?locale=zh_CN)
-
-[CSV To JSON Converter | CSV 转换器](https://www.convertcsv.com/csv-to-json.htm)
-
-[RLcard Showdown | 开源斗地主](https://douzero.org/)
-
-[CloudConvert | 在线文件格式转换器](https://cloudconvert.com/)
-
-[Web Apps by 123apps | 在线文件格式编辑转换工具](https://123apps.com/cn/)
-
-[WiFi Card | 生成扫码登录的二维码](https://wificard.io/)
-
-[Life Restart | 人生重开模拟器游戏](http://liferestart.syaro.io/view/index.html)
-
-[AppleSN | 检测 AppleSN 码](https://applesn.info/)
-
-[Custom Cursor | 分享自定义鼠标指针主题](https://custom-cursor.com/)
-
-[CPS Check | 多点触控在线测试 触摸屏检查器](https://cps-check.com/cn/multi-touch-test)
-
-[Collect UI | 网站各部分设计灵感 UI 分享](https://collectui.com/designs)
-
-[APKCombo | 免费下载适用于 Google 应用商店上的 APK](https://apkcombo.com/zh/)
-
-[字由 | 字体识别工具](https://www.hellofont.cn/font-ai)
-
-[HowToCook | 程序员做饭指南](https://anduin2017.github.io/HowToCook/)
-
-[Visual Studio Code Web | 在线版 VSCode](https://vscode.dev/)
-
-[Screen Sizes | 常用设备屏幕参数查看分享](https://screensiz.es/)
-
-[宝塔面板 | 简单好用的 Linux/Windows 服务器运维管理面板](https://www.bt.cn/)
-
-[Adobe Color | 在线颜色生成工具 生成相近颜色](https://color.adobe.com/zh/create/color-wheel)
-
-[FlexClip | 免费在线压缩视频工具](https://www.flexclip.com/cn/tools/compress-video/)
-
-[视频压缩 | 在线视频压缩工具](https://www.shipinyasuo.com/)
-
-[Parsec | 全平台串流工具](https://parsec.app/)
-
-[Smallpdf | 在线 PDF 编辑器](https://smallpdf.com/cn/pdf-tools)
-
-[bookmark.style | 将任意链接变成时尚视觉化的网页书签](https://www.bookmark.style/)
-
-[Moonlight | 串流工具](https://moonlight-stream.org/)
-
-[ShareDrop | 在线文件互传工具](https://www.sharedrop.io/)
-
-[NeuralRad | AI 帮你看病 CT 诊断](http://neuralrad.com/)
-
-[慢慢买 | 购物比价工具](http://manmanbuy.com/)
-
-[UFO Test | 测试你的显示器帧数](https://testufo.com/)
-
-[iLovePDF | 为 PDF 爱好者提供的 PDF 文件在线处理工具](https://www.ilovepdf.com/zh-cn)
-
-[AlDente | macOS 充电控制工具](https://apphousekitchen.com/)
-
-[OneDrive Gimhoy | 外链地址生成工具](https://onedrive.gimhoy.com/)
-
-[配色卡 | 在线坏点检测工具](https://peiseka.com/pingmujiance.html)
-
-[wallroom | 好看的壁纸分享](https://wallroom.io/)
-
-[OBS Download | 视频录制和直播的免费开源软件](https://obsproject.com/download)
-
-[Excalidraw | 在线手绘风格作图工具](https://excalidraw.com/)
-
-[Clippy — CSS 背景裁剪 GUI 工具](https://bennettfeely.com/clippy/)
-
-[NGINXConfig | Nginx 可视化配置 GUI 工具](https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN)
-
-[Altapps | 查找可替代软件](https://zh.altapps.net/)
-
-[QuickRef | 帮你快速熟悉一门编程语言](https://quickref.me/)
-
-[Regexper | 正则配置工具](https://regexper.com/#%5E%28%28%28%3F!node_modules%29.%29*%29%28.vue%7C.js%7C.jsx%29%24)
-
-[SmartGit | 全平台 Git GUI 管理工具](https://www.syntevo.com/smartgit/)
-
-[AudioRelay | 将手机用作 PC 的扬声器](https://audiorelay.net/)
-
-[Lightly | 简洁的在线代码编辑器](https://lightly.teamcode.com/)
-
-[SMS-Activate | 在线接码平台](https://sms-activate.org/cn)
-
-[TinyPNG | 智能压缩您的 WebP、JPEG 和 PNG 图片](https://tinify.cn/)
-
-[SSD utils | 固态硬盘检测工具集合](http://vlo.name:3000/ssdtool/)
-
-[UnZiper | 在线解压缩工具](https://www.unziper.com/)
-
-[Compress JPEG| 在线批量压缩文件](https://compressjpeg.com/)
-
-[文件转换工具 | 在线图像视频音频文件转换工具](https://www.aconvert.com/cn/)
-
-[PPT 超级市场 | PPT 模板分享](https://www.pptsupermarket.com/)
-
-[周报生成器 | AI 帮你优化周报](https://weeklyreport.avemaria.fun/zh)
-
-[TikTok TTS | 抖音文字转语音 API 工具](https://weilbyte.github.io/tiktok-tts/)
-
-[AI 帮个忙 | 多功能 AI 小帮手](https://ai-toolbox.codefuture.top/)
-
-[QEMU for Windows | 镜像转换工具下载](https://qemu.weilnetz.de/)
-
-[CasaOS | 开源的智能家庭操作系统](https://www.casaos.io/)
-
-[渐变色生成工具 | 在线生成 CSS 渐变色工具](https://lingdaima.com/jianbianse/)
-
-[渐变生成器 | 在线渐变配色工具](http://www.hepou.com/peise/grabient.html)
-
-[Bing AI Image | 通过 bing AI 生成图像](https://www.bing.com/create)
-
-[Cip | 在线 IP 查询](http://www.cip.cc/)
-
-[闪击工作台 | 在线书签工具](https://nav.sankki.com/#/index)
-
-[建 E 全景 | VR 全景合成工具](https://vr.justeasy.cn/)
-
-[DNSPod | 域名检测工具](https://tool.dnspod.cn/)
-
-[Obsidian | 不设限的 Markdown 编辑器](https://obsidian.md/)
-
-[金山文档 | 在线文档工具](https://www.kdocs.cn/latest?from=docs)
-
-[快贴 | 真正的云剪贴板工具](https://home.clipber.com/)
-
-[贝塞尔曲线 | 在线生成贝塞尔曲线 GUI 工具](https://cubic-bezier.com/#.17,.67,.92,.68)
-
-[配色表 | 不同设计语言下的配色集合](https://www.materialui.co/colors)
-
-[Get Waves | 生成波浪样式的 SVG 代码](https://getwaves.io/)
-
-[Haikei | 随机生成具有特定风格 SVG 或图片在线工具](https://app.haikei.app/)
-
-[Gradient by ShapeFactory | CSS 渐变生成器](https://gradient.shapefactory.co/)
-
-[CssFilters | CSS 图像过滤器 GUI 操作工具](https://www.cssfilters.co/)
-
-[Smooth Shadow | CSS 阴影的 GUI 实用工具](https://shadows.brumm.af/)
-
-[itab-web | 免费无广告的组件式浏览器桌面](https://go.itab.link/)
-
-[Carbon | 将你 JS 代码生成好看的图片分享给别人](https://carbon.now.sh/)
-
-[不蒜子 | 极简网页计数器 简单统计你的网站访问量](http://busuanzi.ibruce.info/)
-
 [Google Analytics | 帮助分析你的网站访问数据](https://analytics.google.com/analytics/web/provision/#/provision)
 
-## Web
+### Tools
+
+[喵狸盘搜 | 阿里云盘资源搜索 | 阿里 云盘 猫哩 喵狸 盘搜 搜索](https://www.alipansou.com/)
+
+[阿里云盘 TV | 好用的第三方阿里云盘 TV | 阿里 云盘 TV 第三方](https://aliyunpantv.gitlab.io/)
+
+[千库网 | 免费图片背景素材下载 | 图片 素材 背景 免费 下载](https://588ku.com/)
+
+[石墨文档 | 国内优秀的在线文档平台 | 石墨 文档 在线](https://shimo.im/welcome)
+
+[Remove.bg | 在线消除图片中的背景 | 背景 去除 工具 图片 处理 在线 消除](https://www.remove.bg/zh)
+
+[符号大全 | 特殊符号大全 | 特殊 符号 文字](http://www.fhdq.net/)
+
+[Greasyfork | 油猴用户脚本分享 | 油猴 脚本 用户 分享 Tampermonkey](https://greasyfork.org/zh-CN/scripts?utf8=%E2%9C%93&q=Userscript%2B)
+
+[Babel | 在线 javascript 兼容转换 | JS 转换 兼容 编译器](https://www.babeljs.cn/repl)
+
+[CSS Grid Generator | CSS Grid GUI 工具 | 网格 生成器](https://cssgrid-generator.netlify.app/)
+
+[dedg3 | 在线屏幕保护程序 | 屏保 在线 屏幕 保护](https://dedg3.com/)
+
+[屏幕检测 | 在线显示器坏点检测工具 | 显示器 坏点 检测 屏幕 工具](https://screen.51240.com/#welcome)
+
+[草料二维码 | 好用的在线二维码生成器 | 草料 二维码 工具](https://cli.im/)
+
+[BugMeNot | 查找并提供需要登录资源网站的账号密码 | 账户 密码 分享 资源 工具 搜索](http://bugmenot.com/)
+
+[AutoAHK | 键盘脚本工具中文网 | 键盘 脚本 工具 自动](https://www.autoahk.com/)
+
+[Photopea | 在线版 Photoshop | PS 图像 处理 工具](https://www.photopea.com/)
+
+[字体天下 | 提供各类字体的免费下载和在线预览服务 | 字体 下载](https://www.fonts.net.cn/)
+
+[ApiPost | 可直接生成文档的 API 调试、管理工具 | API 测试 调试 服务](https://www.apipost.cn/#)
+
+[AlternativeTo | 查询可替代的软件 | 替代 软件 替换 查询 搜索 同类](https://alternativeto.net/)
+
+[Typora | 好用的 Markdown 编辑器 | 好用 MD 编辑器](https://typora.io/)
+
+[NATAPP | 内网穿透基于 ngrok 的国内高速内网映射工具 | 内网 穿透 域名 映射 网站](https://natapp.cn/)
+
+[ColorDrop | 在线色彩搭配工具 | 色彩 搭配 颜色 工具](https://colordrop.io/random/)
+
+[Learn Git Branching | 通过互动学习 Git 操作 | git 互动 学习 指引](https://learngitbranching.js.org/?locale=zh_CN)
+
+[CSV To JSON Converter | CSV 转换器 | CSV JSON 转换 工具](https://www.convertcsv.com/csv-to-json.htm)
+
+[RLcard Showdown | 开源斗地主 | 开源 斗地主 游戏 牌](https://douzero.org/)
+
+[CloudConvert | 在线文件格式转换器 | 文件 格式 转换 图像](https://cloudconvert.com/)
+
+[Web Apps by 123apps | 在线文件格式编辑转换工具 | 文件 格式 编辑 转换 图像 视频](https://123apps.com/cn/)
+
+[WiFi Card | 生成扫码登录的二维码 | WIFI 卡片 二维码 扫码 连接 登录](https://wificard.io/)
+
+[Life Restart | 人生重开模拟器游戏 | 模拟器 游戏 人生 重开](http://liferestart.syaro.io/view/index.html)
+
+[AppleSN | 检测 AppleSN 码 | apple sn 检测 查询 验证](https://applesn.info/)
+
+[Custom Cursor | 分享自定义鼠标指针主题 | 鼠标 指针 自定义 主题 分享](https://custom-cursor.com/)
+
+[CPS Check | 多点触控在线测试 触摸屏检查器 | 触控 多点 测试 触摸](https://cps-check.com/cn/multi-touch-test)
+
+[Collect UI | 网站各部分设计灵感 UI 分享 | UI 设计 网站 灵感 分享](https://collectui.com/designs)
+
+[APKCombo | 免费下载适用于 Google 应用商店上的 APK | apk 下载 商店 google](https://apkcombo.com/zh/)
+
+[字由 | 字体识别工具 | 字体 识别 文本](https://www.hellofont.cn/font-ai)
+
+[HowToCook | 程序员做饭指南 | 码农 做饭 指南 吃饭](https://anduin2017.github.io/HowToCook/)
+
+[Visual Studio Code Web | 在线版 VSCode | vscode 在线 编辑器 代码](https://vscode.dev/)
+
+[Screen Sizes | 常用设备屏幕参数查看分享 | 设备 屏幕 参数 设计](https://screensiz.es/)
+
+[宝塔面板 | 简单好用的 Linux/Windows 服务器运维管理面板 | 服务器 宝塔 管理 面板 运维 配置](https://www.bt.cn/)
+
+[Adobe Color | 在线颜色生成工具 生成相近颜色 | 颜色 生成 相近 组合 色域](https://color.adobe.com/zh/create/color-wheel)
+
+[FlexClip | 免费在线压缩视频工具 | 视频 压缩](https://www.flexclip.com/cn/tools/compress-video/)
+
+[视频压缩 | 在线视频压缩工具 | 视频 压缩](https://www.shipinyasuo.com/)
+
+[Parsec | 全平台串流工具 | 远程 控制 串流 游戏 桌面](https://parsec.app/)
+
+[Smallpdf | 在线 PDF 编辑器 | PDF 编辑 处理 工具](https://smallpdf.com/cn/pdf-tools)
+
+[bookmark.style | 将任意链接变成时尚视觉化的网页书签 | 书签 分享 美化 图片 链接 视觉 网页](https://www.bookmark.style/)
+
+[Moonlight | 远程 控制 串流 游戏 桌面](https://moonlight-stream.org/)
+
+[ShareDrop | 在线文件互传工具 | 局域网 文件 互传](https://www.sharedrop.io/)
+
+[NeuralRad | AI 帮你看病 CT 诊断 | AI 看病 CT 诊断](http://neuralrad.com/)
+
+[慢慢买 | 购物比价工具 | 购物 比价 工具 买 性价比](http://manmanbuy.com/)
+
+[UFO Test | 测试你的显示器帧数 | 帧率 显示 测试](https://testufo.com/)
+
+[iLovePDF | 为 PDF 爱好者提供的 PDF 文件在线处理工具 | PDF 处理 编辑 工具](https://www.ilovepdf.com/zh-cn)
+
+[AlDente | macOS 充电控制工具 | 充电 限制 工具](https://apphousekitchen.com/)
+
+[OneDrive Gimhoy | 外链地址生成工具 | 外链 地址 生成 分享](https://onedrive.gimhoy.com/)
+
+[配色卡 | 在线坏点检测工具 | 显示 坏点 检测 色彩](https://peiseka.com/pingmujiance.html)
+
+[OBS Download | 视频录制和直播的免费开源软件 | 直播 录制 录屏 推流 拉流](https://obsproject.com/download)
+
+[Excalidraw | 在线手绘风格作图工具 | 手绘 作图 卡片 生成](https://excalidraw.com/)
+
+[Clippy — CSS 背景裁剪 GUI 工具 | 形状 背景 自定义](https://bennettfeely.com/clippy/)
+
+[NGINXConfig | Nginx 可视化配置 GUI 工具 | 配置 服务](https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN)
+
+[Altapps | 查找可替代软件 | 替代 查询 软件 替换](https://zh.altapps.net/)
+
+[QuickRef | 帮你快速熟悉一门编程语言 | 编程 入门 快速 了解 熟悉 工具 文档](https://quickref.me/)
+
+[Regexper | 正则配置工具 | 正则 表达式 验证 编写 配置 工具](https://regexper.com/#%5E%28%28%28%3F!node_modules%29.%29*%29%28.vue%7C.js%7C.jsx%29%24)
+
+[SmartGit | 全平台 Git GUI 管理工具 | git 提交 管理 全平台](https://www.syntevo.com/smartgit/)
+
+[AudioRelay | 将手机用作 PC 的扬声器 | 外放 扬声器 手机 作为](https://audiorelay.net/)
+
+[Lightly | 简洁的在线代码编辑器 | 云 编辑器 代码](https://lightly.teamcode.com/)
+
+[SMS-Activate | 在线接码平台 | 验证码 接收](https://sms-activate.org/cn)
+
+[TinyPNG | 智能压缩您的 WebP、JPEG 和 PNG 图片 | 图片 压缩](https://tinify.cn/)
+
+[SSD utils | 固态硬盘检测工具集合 | 固态 硬盘 检测](http://vlo.name:3000/ssdtool/)
+
+[UnZiper | 在线解压缩工具 | 压缩 解压 文件 处理](https://www.unziper.com/)
+
+[Compress JPEG| 在线批量压缩文件 | 压缩 文件 批量 图像](https://compressjpeg.com/)
+
+[文件转换工具 | 在线图像视频音频文件转换工具 | 文件 视频 图片 音频 转换](https://www.aconvert.com/cn/)
+
+[PPT 超级市场 | PPT 模板分享 | 模板 PPT 分享 集合](https://www.pptsupermarket.com/)
+
+[周报生成器 | AI 帮你优化周报 | AI 周报 优化](https://weeklyreport.avemaria.fun/zh)
+
+[TikTok TTS | 抖音文字转语音 API 工具 | 抖音 TTS 文本 语音 转换](https://weilbyte.github.io/tiktok-tts/)
+
+[AI 帮个忙 | 多功能 AI 小帮手 | AI 提示 对话 帮助 集合](https://ai-toolbox.codefuture.top/)
+
+[QEMU for Windows | 镜像转换工具下载 | 镜像 格式 转换 工具](https://qemu.weilnetz.de/)
+
+[CasaOS | 开源的智能家庭操作系统 | 智能 家庭 系统 开源](https://www.casaos.io/)
+
+[渐变色生成工具 | 在线生成 CSS 渐变色工具 | CSS 渐变 色彩 搭配 背景 生成](https://lingdaima.com/jianbianse/)
+
+[渐变生成器 | 在线渐变配色工具 | 配色 渐变 自定义](http://www.hepou.com/peise/grabient.html)
+
+[Bing AI Image | 通过 bing AI 生成图像 | AI 必应 图像 生成](https://www.bing.com/create)
+
+[Cip | 在线 IP 查询 | IP 本地 查询 公网](http://www.cip.cc/)
+
+[闪击工作台 | 在线书签工具 | 书签 同步 在线](https://nav.sankki.com/#/index)
+
+[建 E 全景 | VR 全景合成工具 | VR 全景 合成 模型](https://vr.justeasy.cn/)
+
+[DNSPod | 域名检测工具 | 域名 检测 备案 HTTPS](https://tool.dnspod.cn/)
+
+[Obsidian | 不设限的 Markdown 编辑器 | 本地优先 全平台 MD 编辑器](https://obsidian.md/)
+
+[金山文档 | 在线文档工具 | 文档 金山 office](https://www.kdocs.cn/latest?from=docs)
+
+[快贴 | 真正的云剪贴板工具 | 剪切板 云 工具 分享](https://home.clipber.com/)
+
+[贝塞尔曲线 | 在线生成贝塞尔曲线 GUI 工具 | CSS 生成 动画 工具 曲线](https://cubic-bezier.com/#.17,.67,.92,.68)
+
+[配色表 | 不同设计语言下的配色集合 | 颜色 配色 集合 RGB](https://www.materialui.co/colors)
+
+[Get Waves | 生成波浪样式的 SVG 代码 | 水 动画 图片 自定义 生成](https://getwaves.io/)
+
+[Haikei | 随机生成具有特定风格 SVG 或图片在线工具 | 背景 图片 自定义 图像 风格 生成](https://app.haikei.app/)
+
+[Gradient by ShapeFactory | CSS 渐变生成器 | CSS 渐变 生成 工具](https://gradient.shapefactory.co/)
+
+[CssFilters | CSS 图像过滤器 GUI 操作工具 | 过滤器 CSS 在线 生成](https://www.cssfilters.co/)
+
+[Smooth Shadow | CSS 阴影的 GUI 实用工具 | CSS 阴影 调整 生成 海报](https://shadows.brumm.af/)
+
+[iTab-web | 免费无广告的组件式浏览器桌面 | Tab iOS 书签 桌面 标签页](https://go.itab.link/)
+
+[Carbon | 将你 JS 代码生成好看的图片分享给别人 | 代码 图片 生成 好看 美观 分享 卡片](https://carbon.now.sh/)
+
+[不蒜子 | 极简网页计数器 简单统计你的网站访问量 | 统计 网站 计数 访问 分析](http://busuanzi.ibruce.info/)
+
+[自建不蒜子 | 简易网站访问统计 | 统计 网站 计数 访问 分析](https://busuanzi.9420.ltd/)
+
+[百度统计 | 简单智能分析网站情况 | 百度 统计 网站 计数 访问 分析](https://tongji.baidu.com/main/homepage/10000545568/homepage/index)
+
+[Cloudflare | 域名服务优化 简单的 HTTPS 服务 | DNS 解析 优化 HTTPS](https://www.cloudflare.com/zh-cn/)
+
+[HOSTRY | 免费的域名解析服务 | 域名 免费 解析 服务 网站 HTTPS](https://hostry.com/)
+
+[Whois Lookup | 域名检测查询服务 | 域名 查询 检测 注册](https://whois.domaintools.com/)
+
+[EU.org | 注册永久 .eu.org 顶级域名 | Org 免费 域名 注册 申请 永久](https://nic.eu.org/arf/en/login/)
+
+[Crawlers | Algolia 控制台 | 文档 搜索 控制 网站 爬虫 爬取 管理](https://crawler.algolia.com/admin/crawlers?sort=status&order=ASC&limit=20&appId=XY26T0U1UR)
+
+[BootCDN | Bootstrap 中文网开源项目免费 CDN 加速服务 | CDN 加速 脚本 网站](https://www.bootcdn.cn/)
+
+[jsDelivr | 免费的 CDN 加速及转换服务 | 转换 解析](https://www.jsdelivr.com/)
+
+[精灵图合成工具 | sprite 素材多图合成 | 精灵 图片 在线 工具 合成 提取 拆分](https://www.aigei.com/tool/sprite/pack)
+
+[IconPark | 字节跳动出品的图标库 | 图标 字体 svg icon](https://iconpark.oceanengine.com/home)
+
+[清华大学开源软件镜像站 | Tsinghua Open Source Mirror | 镜像 软件 包 homebrew](https://mirrors.tuna.tsinghua.edu.cn/)
+
+[GitHub Proxy 代理加速 | github 代理 加速 下载](https://ghproxy.com/)
+
+[ChatGPT Splitter | 拆分大型文档并将其加载到 ChatGPT | 拆分 大型 文档 GPT 加载](https://chatgptsplitter.com/)
+
+[RayLink 远程控制软件 | 免费真高清超流畅远程控制电脑手机](https://www.raylink.live/)
+
+[智慧工具库 | 最懂你的在线小工具 | Word To HTML](https://www.zhihuilib.com/)
+
+[XLSX to HTML | 将表格转换为 html](https://document.online-convert.com/convert/xlsx-to-html)
+
+[Vector Magic | 将 JPG、PNG 图像转换为 SVG、EPS、AI 向量](https://vectormagic.com/)
+
+[飞猫盘｜文件加速传输工具｜云盘｜橘猫旗下新概念云平台](https://www.feimaoyun.com/home)
+
+[Stable Diffusion Online | AI 生成图像 | 动漫 创建 图片 人工智能](https://stablediffusionweb.com/)
+
+[1Panel | 现代化、开源的 Linux 服务器运维管理面板](https://1panel.cn/)
+
+[npmmirror | 镜像站 更新 淘宝源 npm 包](https://npmmirror.com/)
+
+### Web
 
 [TinyMCE 中文文档 | 强大的富文本编辑器](http://tinymce.ax-z.cn/)
 
@@ -752,8 +814,6 @@
 
 [Vue Macros | Vue 语法扩展增强](https://vue-macros.sxzz.moe/guide/getting-started.html)
 
-[Cloudflare | 域名服务优化 简单的 HTTPS 服务](https://www.cloudflare.com/zh-cn/)
-
 [Astro | 构建快速、以内容为中心的网站的一体化 web 框架](https://astro.build/)
 
 [Qiankun | 微前端解决方案](https://qiankun.umijs.org/zh/)
@@ -800,11 +860,11 @@
 
 [HeyUI | 基于 Vue 的高质量组件库](https://www.heyui.top/)
 
-[Vant | 轻量、可靠的移动端 Vue 组件库](https://vant-contrib.gitee.io/vant/#/zh-CN)
+[Vant | 轻量、可靠的移动端 Vue 组件库](https://vant-ui.github.io/vant/#/zh-CN)
 
 [Ant Design of Vue | 蚂蚁设计 基于 Vue3 的组件库](https://www.antdv.com/docs/vue/introduce-cn/)
 
-[Element UI | 基于 Vue3 的组件库](https://element.eleme.cn/#/zh-CN)
+[Element UI | 基于 Vue2 的组件库](https://element.eleme.cn/#/zh-CN)
 
 [Element Plus | 基于 Vue3 的组件库](https://element-plus.org/zh-CN/)
 
@@ -819,6 +879,30 @@
 [Vue2 | 渐进式 JavaScript 框架](https://v2.cn.vuejs.org/)
 
 [Nextapps | 德国开源的下一代前端开源项目官网](https://nextapps.de/)
+
+[DocSearch | 免费将强大 algolia 搜索能力集成到你的网站中 | 全站 检索 文档 搜索 网页](https://docsearch.algolia.com/)
+
+[LiciaJS | 具有零依赖性的实用工具集合 | 实用 工具](https://licia.liriliri.io/)
+
+[RxJS | JavaScript 的响应式扩展库 | 纯函数 响应式 链式 扩展](https://rxjs.dev/)
+
+[Icons | 开源模块化图标集合](https://icones.js.org/)
+
+[TanStack | 面向 Web 开发人员的高质量开源软件](https://tanstack.com/)
+
+[Netlify | 快速开发和部署网站和应用程序](https://www.netlify.com/)
+
+[宝塔面板 | 简单好用的 Linux/Windows 服务器运维管理面板](https://www.bt.cn/new/index.html)
+
+[PageOffice 开发者中心](https://www.pageoffice.cn/)
+
+[NativeScript | 使用 js 创建原生应用](https://nativescript.org/)
+
+[Streamlit | 通过数据脚本转变为可共享的 Web 应用程序](https://streamlit.io/)
+
+[CKE Editor | 一款现代的强大的富文本编辑器 | 富文本 编辑器](https://ckeditor.com/)
+
+[魔方组件 - 基于 Element-ui 扩展的网站快速成型工具](https://ui.const.team/#/)
 
 ### Electron
 
@@ -835,6 +919,20 @@
 [Xel | 基于 Electron 的 UI 组件库](https://xel-toolkit.org/)
 
 [Electron-vite | 基于 Vite 的下一代 Electron 开发与构建工具](https://cn-evite.netlify.app/)
+
+### React
+
+[MUI | 基于 React 的 UI 组件库](https://mui.com/zh/)
+
+[Ant Design | 一套企业级 UI 设计语言和 React 组件库](https://ant.design/index-cn)
+
+[Chakra UI | 基于 React 的简单、模块化且可访问的组件库](https://chakra-ui.com/)
+
+[Material-UI | 当下流行的 React UI 框架](https://material-ui.com/zh/)
+
+[Zent | 好用的 React 组件库](https://youzan.github.io/zent/zh/guides/install)
+
+[Fish | 轻量、可靠的移动端 React 组件库](https://nsfi.github.io/fishd-mobile-site/#/zh-CN/home)
 
 ### Flutter
 
@@ -858,27 +956,15 @@
 
 [Cboard | BI 框架](https://peter_zhang921.gitee.io/cboard_docsify/#/zh-cn/preface)
 
-### React
+[Quick BI | 阿里云 BI 数据可视化分析工具](https://www.aliyun.com/product/bigdata/bi)
 
-[MUI | 基于 React 的 UI 组件库](https://mui.com/zh/)
-
-[Ant Design | 一套企业级 UI 设计语言和 React 组件库](https://ant.design/index-cn)
-
-[Chakra UI | 基于 React 的简单、模块化且可访问的组件库](https://chakra-ui.com/)
-
-[Material-UI | 当下流行的 React UI 框架](https://material-ui.com/zh/)
-
-[Zent | 好用的 React 组件库](https://youzan.github.io/zent/zh/guides/install)
-
-[Fish | 轻量、可靠的移动端 React 组件库](https://nsfi.github.io/fishd-mobile-site/#/zh-CN/home)
-
-## Database
+### Database
 
 [Mongoose 5.0 CN | 以 js 对象语法操作数据库的 Mongoose 中文文档](http://www.mongoosejs.net/docs/guide.html)
 
 [Db4free | 免费的 MySQL 数据库](https://db4free.net/)
 
-## Java
+### Java
 
 [Swagger | Java API 生成文档工具](https://swagger.io/)
 
@@ -886,7 +972,7 @@
 
 [JDK-Download | 下载 JDK java 编译器](https://adoptium.net/zh-CN/)
 
-## UI
+### UI
 
 [Seeseed | 灵活的设计相关站点导航](https://www.seeseed.com/)
 
@@ -920,7 +1006,11 @@
 
 [Imgcook | 由设计稿一键智能生成代码的大厨](https://www.imgcook.com/)
 
-## Via
+[Wallroom | 好看的壁纸分享](https://wallroom.io/)
+
+[Open Peeps | 一个手绘插画库 | 开源 商用 插画 手绘 人像](https://www.openpeeps.com/)
+
+### Via
 
 [TeamViewer Console | TeamViewer 控制台](https://login.teamviewer.com/LogOn)
 
@@ -958,7 +1048,25 @@
 
 [ECharts 绘制的图形保存为图片](https://www.jianshu.com/p/f5359864fa4f)
 
-## Videos
+[免费注册申请永久的 eu.org 顶级域名](https://www.modb.pro/db/514042)
+
+[angular/CONTRIBUTING.md at 22b96b96902e1a42ee8c5e807720424abad3082a · angular/angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
+
+[如何配置 git 提交规范 - 知乎](https://zhuanlan.zhihu.com/p/105826623)
+
+[新手入门指导 - 帮助中心 - 有赞](https://help.youzan.com/displaylist/list_4_31273_all)
+
+[Cloudflare Speed | 互联网速度测试 | 测速](https://speed.cloudflare.com/)
+
+[使用 iTMSTransporter 上传 ipa 包到 AppStore - 简书](https://www.jianshu.com/p/77119b2065cf)
+
+[The Aviator | 3D 飞行游戏](https://tres-the-aviator.enpitsulin.xyz/)
+
+[Anthony Fu | 安东尼·傅](https://antfu.me/)
+
+[雪球 | 聪明的投资者都在这里](https://xueqiu.com/)
+
+### Videos
 
 [西瓜视频 | 创作平台](https://studio.ixigua.com/)
 
@@ -966,7 +1074,7 @@
 
 [快手 | 创作者服务平台](https://cp.kuaishou.com/article/publish/video?origin=www.kuaishou.com)
 
-## Edu
+### Edu
 
 [河南省建设监理协会](http://www.haec.org.cn/)
 
@@ -982,7 +1090,7 @@
 
 [全国一级注册建造师继续教育平台](https://jzs.zjxpxzx.com/Account/ZJXDefault)
 
-## Resources
+### Resources
 
 [套陆的部落阁 | 软件技术分享](https://blog.tlhub.cn/)
 
@@ -1013,3 +1121,7 @@
 [蓝点网 | 微软相关的新闻资讯](https://www.landiannews.com/?postID=18)
 
 [蓝点网址导航 | 更专业的 IT 类网址导航站点](https://nav.wsoso.com/)
+
+[Free-for | 为开发人员汇总的免费的服务集合 | 免费 开发 服务 域名 集合](https://free-for.dev/#/?id=domain)
+
+[Setris by mslivo | 流沙特效的俄罗斯方块](https://mslivo.itch.io/setris)
