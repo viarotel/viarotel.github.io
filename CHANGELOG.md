@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/viarotel/viarotel.github.io/compare/v1.4.1...v1.5.0) (2023-09-07)
+
+
+### Features
+
+* 🚀 更新书签数据 ([dad0f8b](https://github.com/viarotel/viarotel.github.io/commit/dad0f8b9c9426d950c994a0673f6bde2f1b47740))
+
 ## [1.4.1](https://github.com/viarotel/viarotel.github.io/compare/v1.4.0...v1.4.1) (2023-09-06)
 
 
