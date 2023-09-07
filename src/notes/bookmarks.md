@@ -1,6 +1,6 @@
 # Bookmarks
 
-## 书签栏
+## Index
 
 [viarotel](https://viarotel.eu.org/)
 
@@ -75,8 +75,6 @@
 [集知盒子](https://www.jizhihezi.com/)
 
 [鱼塘热榜](https://mo.fish/)
-
-[JETBRA.IN CHECKER | 激活 密钥 工具 jetbra](https://3.jetbra.in/)
 
 ## AI
 
@@ -485,6 +483,8 @@
 [1Panel | 现代化、开源的 Linux 服务器运维管理面板](https://1panel.cn/)
 
 [npmmirror | 镜像站 更新 淘宝源 npm 包](https://npmmirror.com/)
+
+[JETBRA.IN CHECKER | 激活 密钥 工具 jetbra](https://3.jetbra.in/)
 
 ## Web
 
