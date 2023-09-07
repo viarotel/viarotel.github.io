@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.1](https://github.com/viarotel/viarotel.github.io/compare/v1.5.0...v1.5.1) (2023-09-07)
+
+
+### Bug Fixes
+
+* 📝 修复书签栏分类错误的问题 ([65472b9](https://github.com/viarotel/viarotel.github.io/commit/65472b9e1f4d2505affdc392c4d71fb1e5811e01))
+* 🔧 修复无法展示书签栏索引的问题 ([c188c1d](https://github.com/viarotel/viarotel.github.io/commit/c188c1dd86f45b23bb41e38c375a3e811239958e))
+
 ## [1.5.0](https://github.com/viarotel/viarotel.github.io/compare/v1.4.1...v1.5.0) (2023-09-07)
 
 
