@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/viarotel/viarotel.github.io/compare/v1.5.1...v1.6.0) (2023-09-19)
+
+
+### Features
+
+* 🚀 调整项目排序规则 ([26634bb](https://github.com/viarotel/viarotel.github.io/commit/26634bbf7e9fa5871d1afb4a5f218fe058a157f9))
+
+
+### Bug Fixes
+
+* 🔧 修复自动生成目录失败的问题 ([ab8e1c9](https://github.com/viarotel/viarotel.github.io/commit/ab8e1c98e20bc0ec8704b2d75b5718d20175af39))
+
 ## [1.5.1](https://github.com/viarotel/viarotel.github.io/compare/v1.5.0...v1.5.1) (2023-09-07)
 
 
