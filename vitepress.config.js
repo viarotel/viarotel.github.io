@@ -5,22 +5,25 @@ import { generateSidebar } from 'vitepress-sidebar'
 import dayjs from 'dayjs'
 import { appName } from './src/configs/index.js'
 
-const sidebar = generateSidebar({
-  documentRootPath: '/src/notes',
-  useTitleFromFileHeading: true,
-  collapsed: false,
-  includeRootIndexFile: false,
-  capitalizeFirst: true,
-})[0]?.items || []
+const sidebar
+  = generateSidebar({
+    documentRootPath: 'src/notes/',
+    useTitleFromFileHeading: true,
+    collapsed: false,
+    includeRootIndexFile: false,
+    capitalizeFirst: true,
+  }) || []
+
 // console.log('sidebar', JSON.stringify(sidebar))
 
 const memo = (() => {
-  const value = (
-    sidebar.find(item => item.text === 'Memo')?.items || []
-  ).filter(item => item.text !== 'Index.md')
+  // @ts-expect-error
+  const items = sidebar.find(item => item.text === 'Memo')?.items || []
+  const value = items.filter(item => item.text !== 'Index.md')
   return value
 })()
-// console.log('notes', JSON.stringify(notes))
+
+// console.log('memo', JSON.stringify(memo))
 
 function useImgTag(src) {
   return `<img src="${src}" style="width: 20px; height: 20px;" class="hover:opacity-100 opacity-70 duration-500" />`
