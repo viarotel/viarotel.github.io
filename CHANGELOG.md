@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/viarotel/viarotel.github.io/compare/v1.6.0...v1.6.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* 📝 修复项目信息过时的问题 ([ae12604](https://github.com/viarotel/viarotel.github.io/commit/ae12604025eca2638fd96688bcbd0a2c36ccf834))
+
 ## [1.6.0](https://github.com/viarotel/viarotel.github.io/compare/v1.5.1...v1.6.0) (2023-09-19)
 
 
