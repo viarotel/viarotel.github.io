@@ -3,7 +3,6 @@ import { computed } from 'vue'
 import { useData } from 'vitepress'
 import VPFeatures from 'vitepress/dist/client/theme-default/components/VPFeatures.vue'
 
-import dayjs from 'dayjs'
 import { data } from '@/data/repos.data.js'
 
 const { lang } = useData()
@@ -18,7 +17,6 @@ const features = computed(() => {
       details: item.description,
       link: `https://github.com/${item.repo}`,
     }))
-    .sort((a, b) => dayjs(b.updatedAt).unix() - dayjs(a.updatedAt).unix())
 })
 </script>
 
