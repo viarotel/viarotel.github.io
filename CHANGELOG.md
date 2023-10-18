@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/viarotel/viarotel.github.io/compare/v1.6.1...v1.6.2) (2023-10-18)
+
+
+### Bug Fixes
+
+* 🔧 去除冗余的的项目排序 ([e6d0d4c](https://github.com/viarotel/viarotel.github.io/commit/e6d0d4c80b5e861e3bd4b40e54f36001905f66ac))
+
 ## [1.6.1](https://github.com/viarotel/viarotel.github.io/compare/v1.6.0...v1.6.1) (2023-10-18)
 
 
