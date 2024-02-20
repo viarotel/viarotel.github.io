@@ -720,7 +720,7 @@
 
 [LuLu UI | 原生 JS 兼容 IE 的 UI 组件库](https://l-ui.com/)
 
-[Axios CN |  可以用于浏览器和 node.js 的网络请求库](https://axios-http.com/zh/docs/intro)
+[Axios CN | 可以用于浏览器和 node.js 的网络请求库](https://axios-http.com/zh/docs/intro)
 
 [容联七陌 | 智能客服集成解决方案](https://www.7moor.com/developer)
 

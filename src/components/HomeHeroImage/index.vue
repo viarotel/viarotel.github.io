@@ -9,7 +9,7 @@ import ViaLottiePlayer from '@/components/ViaLottiePlayer/index.vue'
 
 const { lang } = useData()
 
-const lotties = import.meta.globEager('@/assets/lotties/*.json')
+const lotties = import.meta.glob('@/assets/lotties/*.json', { eager: true })
 // console.log('lotties', lotties)
 
 const arrayLotties = Object.entries(lotties).map((item, index) => [
