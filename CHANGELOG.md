@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/viarotel/viarotel.github.io/compare/v1.6.2...v1.7.0) (2024-02-20)
+
+
+### Features
+
+* 🎉 添加新的文章并更新依赖版本 ([c3e9242](https://github.com/viarotel/viarotel.github.io/commit/c3e9242ef069f5fbdb2e6b355949e22a30436112))
+
 ## [1.6.2](https://github.com/viarotel/viarotel.github.io/compare/v1.6.1...v1.6.2) (2023-10-18)
 
 
