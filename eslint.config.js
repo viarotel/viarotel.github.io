@@ -1,5 +1,5 @@
-import antfu from '@antfu/eslint-config'
 import { createRequire } from 'node:module'
+import antfu from '@antfu/eslint-config'
 
 const require = createRequire(import.meta.url)
 
@@ -9,7 +9,13 @@ export default antfu(
   {
     typescript: false,
     markdown: false,
-    ignores: ['node_modules', 'src/notes/public', 'dist', 'index.html'],
+    ignores: [
+      'node_modules',
+      'dist',
+      'index.html',
+      'src/notes/public',
+      '.vitepress/cache',
+    ],
   },
   {
     languageOptions: {
@@ -25,8 +31,8 @@ export default antfu(
       'node/prefer-global/process': 'off',
 
       'no-console': 'off',
-      curly: 'off',
-      eqeqeq: 'off',
+      'curly': 'off',
+      'eqeqeq': 'off',
       'no-unused-vars': 'off',
 
       'unused-imports/no-unused-vars': 'off',
@@ -34,5 +40,5 @@ export default antfu(
       'vue/html-self-closing': 'off',
       'vue/block-order': 'off',
     },
-  }
+  },
 )

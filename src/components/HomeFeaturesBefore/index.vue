@@ -8,7 +8,7 @@ const { lang } = useData()
 const features = computed(() => {
   const repos = data.repos || []
   // console.log('repos', repos)
-  return repos.map((item) => ({
+  return repos.map(item => ({
     ...item,
     title: item.name,
     details: item.description,

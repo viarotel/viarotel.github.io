@@ -14,7 +14,8 @@ if (!import.meta.env.SSR) {
       await import('@lottiefiles/lottie-player')
 
       renderLottie.value = true
-    } catch (error) {
+    }
+    catch (error) {
       console.warn('error')
     }
   })()

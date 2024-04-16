@@ -1,6 +1,0 @@
-# user
-node_modules
-dist
-assets
-.vitepress/cache
-.vitepress/.temp
