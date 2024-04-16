@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/viarotel/viarotel.github.io/compare/v1.7.0...v1.8.0) (2024-04-16)
+
+
+### Features
+
+* 🚀 Update deps ([4a8cc9f](https://github.com/viarotel/viarotel.github.io/commit/4a8cc9f1c729ef726c0966da329846b614f290e4))
+
+
+### Performance Improvements
+
+* ➖ 去除冗余的配置 ([f10e259](https://github.com/viarotel/viarotel.github.io/commit/f10e259266a65ca383d326f865ed2d97b94fb919))
+
 ## [1.7.0](https://github.com/viarotel/viarotel.github.io/compare/v1.6.2...v1.7.0) (2024-02-20)
 
 
