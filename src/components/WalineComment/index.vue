@@ -1,6 +1,4 @@
 <script setup>
-import { computed, onMounted, watch } from 'vue'
-import { useData, useRoute } from 'vitepress'
 import { init } from '@waline/client'
 import '@waline/client/waline.css'
 

@@ -1,6 +1,4 @@
 <script setup>
-// import { useData } from 'vitepress'
-import { onMounted } from 'vue'
 import crowd from './core/crowd.js'
 
 onMounted(() => {

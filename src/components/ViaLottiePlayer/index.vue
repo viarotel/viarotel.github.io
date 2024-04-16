@@ -1,8 +1,4 @@
 <script setup>
-// import { useData } from 'vitepress'
-
-import { ref } from 'vue'
-
 const props = defineProps({
   el: {
     type: Function,
@@ -13,13 +9,12 @@ const props = defineProps({
 const renderLottie = ref(false)
 
 if (!import.meta.env.SSR) {
-  (async () => {
+  ;(async () => {
     try {
       await import('@lottiefiles/lottie-player')
 
       renderLottie.value = true
-    }
-    catch (error) {
+    } catch (error) {
       console.warn('error')
     }
   })()

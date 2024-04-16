@@ -1,8 +1,4 @@
 <script setup>
-import { computed, ref } from 'vue'
-
-import { useData } from 'vitepress'
-
 import { sample } from 'lodash-es'
 
 import ViaLottiePlayer from '@/components/ViaLottiePlayer/index.vue'
@@ -24,15 +20,14 @@ const lottieIndex = ref(sample(arrayLotties)[2])
 
 const currentLottie = computed(() => arrayLotties[lottieIndex.value])
 const currentLottieJSON = computed(
-  () => currentLottie.value?.[1]?.default || null,
+  () => currentLottie.value?.[1]?.default || null
 )
 
 const lottiePlayer = ref(null)
 function loadNextLottie() {
   if (lottieIndex.value < lengthLotties - 1) {
     ++lottieIndex.value
-  }
-  else {
+  } else {
     lottieIndex.value = 0
   }
   // console.log('lottiePlayer', lottiePlayer)
