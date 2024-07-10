@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/viarotel/viarotel.github.io/compare/v1.8.0...v1.9.0) (2024-07-10)
+
+
+### Features
+
+* 🚀 Update memo ([736dcf9](https://github.com/viarotel/viarotel.github.io/commit/736dcf9bcdefd80ac665c8ee19e5472d6b0a4ed7))
+
 ## [1.8.0](https://github.com/viarotel/viarotel.github.io/compare/v1.7.0...v1.8.0) (2024-04-16)
 
 
