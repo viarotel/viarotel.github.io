@@ -39,4 +39,6 @@ git push --delete origin oldName
 git push origin newName
 # 把修改后的本地分支与远程分支关联
 git branch --set-upstream-to origin/newName
+# 修复合并分支时中途取消无法拉取代码
+git merge --abort
 ```

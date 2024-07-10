@@ -2,33 +2,20 @@ import { ofetch } from 'ofetch'
 
 const baseURL = 'https://ungh.cc'
 
-const includes = [
-  'escrcpy',
-  'vite-uniapp-template',
-  'packages',
-  'environments',
-  'waline-service',
-  'vue-cli-uniapp',
-  'vue-apicloud-cli',
-  'bing-chat-live-open',
-  'blog-demo',
-]
+const excludes = ['waline-service']
 
 async function getRepos() {
-  const promises = includes.map(name =>
-    ofetch(`${baseURL}/repos/viarotel-org/${name}`, {
-      method: 'GET',
-    }).catch(e => console.warn(e)),
-  )
+  const res = await ofetch(`${baseURL}/orgs/viarotel-org/repos`, {
+    method: 'GET',
+  }).catch(e => console.warn(e))
 
-  const res = await Promise.allSettled(promises)
+  const repos = res?.repos || []
 
-  const repos = res
-    .filter(item => item.status === 'fulfilled')
-    .map(item => item.value.repo)
-  // console.log('repos', repos)
+  const data = repos
+    .filter(item => !excludes.includes(item.name))
+    .sort((a, b) => b.stars - a.stars)
 
-  return repos
+  return data
 }
 
 export default {
