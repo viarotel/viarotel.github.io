@@ -136,6 +136,12 @@ export default {
       },
       {
         icon: {
+          svg: useImgTag('/images/logo-gitcode.png'),
+        },
+        link: 'https://gitcode.com/viarotel-org',
+      },
+      {
+        icon: {
           svg: useImgTag(
             'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/favicon-32x32.png',
           ),
