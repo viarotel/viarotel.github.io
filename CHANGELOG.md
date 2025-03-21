@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/viarotel/viarotel.github.io/compare/v1.10.0...v1.11.0) (2025-03-21)
+
+
+### Features
+
+* 👽️ Add adSense ([f7b0cf4](https://github.com/viarotel/viarotel.github.io/commit/f7b0cf47bb868d047c78447f24a506eb65d7e558))
+
 ## [1.10.0](https://github.com/viarotel/viarotel.github.io/compare/v1.9.0...v1.10.0) (2025-02-10)
 
 
