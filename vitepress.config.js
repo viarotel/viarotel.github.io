@@ -143,6 +143,14 @@ export default {
       {
         icon: {
           svg: useImgTag(
+            'https://static.hdslb.com/images/favicon.ico',
+          ),
+        },
+        link: 'https://space.bilibili.com/274990176',
+      },
+      {
+        icon: {
+          svg: useImgTag(
             'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/favicon-32x32.png',
           ),
         },
