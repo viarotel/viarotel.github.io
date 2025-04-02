@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/viarotel/viarotel.github.io/compare/v1.11.0...v1.12.0) (2025-04-02)
+
+
+### Features
+
+* 🚀 Update the overall layout ([894d5a7](https://github.com/viarotel/viarotel.github.io/commit/894d5a7003f4c18adf1ad6da0758ce87e220973b))
+
 ## [1.11.0](https://github.com/viarotel/viarotel.github.io/compare/v1.10.0...v1.11.0) (2025-03-27)
 
 
