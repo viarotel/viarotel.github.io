@@ -1,7 +1,6 @@
 <script setup>
-import { sample } from 'lodash-es'
-
 import ViaLottiePlayer from '@/components/ViaLottiePlayer/index.vue'
+import { sample } from 'lodash-es'
 
 const { lang } = useData()
 

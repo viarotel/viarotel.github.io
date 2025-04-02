@@ -4,7 +4,7 @@
 import Theme from 'vitepress/theme'
 import App from './App.vue'
 
-import 'virtual:uno.css'
+import 'uno.css'
 import './styles/index.js'
 
 import './utils/gtag/index.js'

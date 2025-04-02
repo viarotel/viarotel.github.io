@@ -1,8 +1,8 @@
 <script setup>
-import VPHero from 'vitepress/dist/client/theme-default/components/VPHero.vue'
+import { appInfo, appName } from '@/configs/index.js'
 import { useData } from 'vitepress'
 
-import { appInfo, appName } from '@/configs/index.js'
+import VPHero from 'vitepress/dist/client/theme-default/components/VPHero.vue'
 
 const { frontmatter: fm } = useData()
 </script>

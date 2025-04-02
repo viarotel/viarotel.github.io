@@ -1,2 +1,0 @@
-- Weixin: **viarotel**
-- Email: **viarotel@qq.com**

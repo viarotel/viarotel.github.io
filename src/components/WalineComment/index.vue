@@ -17,6 +17,7 @@ function initWaline() {
     locale: {
       placeholder: placeholder(),
     },
+    reaction: false,
   })
 }
 

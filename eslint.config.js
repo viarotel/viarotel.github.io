@@ -13,7 +13,7 @@ export default antfu(
       'node_modules',
       'dist',
       'index.html',
-      'src/notes/public',
+      'src/contents/public',
       '.vitepress/cache',
     ],
   },

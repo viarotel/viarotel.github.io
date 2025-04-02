@@ -1,7 +1,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import HomeHeroImage from './components/HomeHeroImage/index.vue'
 import HomeFeaturesBefore from './components/HomeFeaturesBefore/index.vue'
+import HomeHeroImage from './components/HomeHeroImage/index.vue'
 import WalineComment from './components/WalineComment/index.vue'
 
 const { Layout } = DefaultTheme

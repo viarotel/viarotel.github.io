@@ -1,6 +1,6 @@
-import { defineConfig } from 'unocss'
 import presetWind from '@unocss/preset-wind'
 import transformerDirectives from '@unocss/transformer-directives'
+import { defineConfig } from 'unocss'
 
 const presets = [
   presetWind(),

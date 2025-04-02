@@ -1,4 +1,4 @@
-import { URL, fileURLToPath } from 'node:url'
+import { fileURLToPath, URL } from 'node:url'
 
 const importComponent = path => fileURLToPath(new URL(path, import.meta.url))
 

@@ -1,10 +1,10 @@
 import path from 'node:path'
+import useUnoCSS from 'unocss/vite'
 import useAutoImport from 'unplugin-auto-import/vite'
 import useAutoComponents from 'unplugin-vue-components/vite'
 import useRemoveConsole from 'vite-plugin-remove-console'
-import useUnoCSS from 'unocss/vite'
-import rewrites from './src/rewrites/index.js'
 import { proxyPort } from './src/configs/index.js'
+import rewrites from './src/rewrites/index.js'
 
 const resolvers = []
 
