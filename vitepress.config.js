@@ -128,7 +128,7 @@ const vitePressI18nConfig = {
         { text: '备忘', link: '/memo/' },
         { text: '书签', link: '/about/bookmarks' },
         { text: '关于', link: '/about/' },
-        { text: 'Escrcpy', link: 'https://escrcpy.viarotel.eu.org/' },
+        { text: 'Escrcpy', link: 'https://escrcpy.viarotel.eu.org/zhHans/' },
       ],
     },
     en: {
