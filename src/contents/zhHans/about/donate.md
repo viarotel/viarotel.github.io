@@ -2,9 +2,9 @@
 title: 捐赠
 ---
 
-# Donate Project ♥️
+# 捐赠项目♥️
 
-If this project has helped you, you can buy me a coffee to keep me energized and improving the project! 😛
+如果该项目帮到你的话，可以请我喝杯咖啡，让我更有精神完善该项目 😛
 
 <div style="display: flex; margin-left: -1.5%;">
   <img src="https://cdn.jsdelivr.net/gh/viarotel-org/escrcpy@main/src/assets/sponsor/viarotel-wepay.png" alt="viarotel-wepay" width="30%" style="flex: 1;">
