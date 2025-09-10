@@ -1,7 +1,7 @@
 {
   "name": "viarotel-site",
   "type": "module",
-  "version": "1.12.1",
+  "version": "1.12.2",
   "packageManager": "pnpm@9.12.3",
   "description": "viarotel site",
   "author": "viarotel",

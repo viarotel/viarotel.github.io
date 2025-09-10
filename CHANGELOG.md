@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.2](https://github.com/viarotel/viarotel.github.io/compare/v1.12.1...v1.12.2) (2025-09-10)
+
+
+### Performance Improvements
+
+* 🚀 Update domain ([437f0a2](https://github.com/viarotel/viarotel.github.io/commit/437f0a2527e399b566681d042113feb2b38b18ab))
+
 ## [1.12.1](https://github.com/viarotel/viarotel.github.io/compare/v1.12.0...v1.12.1) (2025-04-08)
 
 
