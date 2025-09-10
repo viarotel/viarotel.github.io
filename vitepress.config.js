@@ -128,7 +128,7 @@ const vitePressI18nConfig = {
         { text: '备忘', link: '/memo/' },
         { text: '书签', link: '/about/bookmarks' },
         { text: '关于', link: '/about/' },
-        { text: 'Escrcpy', link: 'https://escrcpy.viarotel.eu.org/zhHans/' },
+        { text: 'Escrcpy', link: 'https://viarotel.eu.org/zhHans/' },
       ],
     },
     en: {
@@ -136,7 +136,7 @@ const vitePressI18nConfig = {
         { text: 'Memo', link: '/en/memo/' },
         { text: 'Bookmarks', link: '/en/about/bookmarks' },
         { text: 'About', link: '/en/about/' },
-        { text: 'Escrcpy', link: 'https://escrcpy.viarotel.eu.org/' },
+        { text: 'Escrcpy', link: 'https://viarotel.eu.org/' },
       ],
     },
   },
