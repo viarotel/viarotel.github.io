@@ -82,8 +82,7 @@ const vitePressConfig = {
     ],
     footer: {
       message: `
-        <span id="busuanzi_container_site_pv"> Views <span id="busuanzi_value_site_pv"></span> </span>
-        ,
+        <span id="busuanzi_container_site_pv"> Views <span id="busuanzi_value_site_pv"></span>, </span>
         <span id="busuanzi_container_site_uv"> Visitors <span id="busuanzi_value_site_uv"></span> </span>
         <br />
         Released under the MIT License. 
