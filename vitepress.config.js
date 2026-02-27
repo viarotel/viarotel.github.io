@@ -87,9 +87,7 @@ const vitePressConfig = {
         <span>Visitors <span id="busuanzi_site_uv">0</span></span>
         <br />
         <span>TodayViews <span id="busuanzi_today_pv">0</span>, </span>
-        <span>TodayVisitors <span id="busuanzi_today_uv">0</span>, </span>
-        <span>PageViews <span id="busuanzi_page_pv">0</span>, </span>
-        <span>PageVisitors <span id="busuanzi_page_uv">0</span></span>
+        <span>TodayVisitors <span id="busuanzi_today_uv">0</span></span>
         <br />
       `,
       copyright: `Copyright © 2023-${new Date().getFullYear()} Powered by viarotel`,

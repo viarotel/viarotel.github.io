@@ -78,6 +78,13 @@
     "useData": true,
     "useRoute": true,
     "useRouter": true,
-    "withBase": true
+    "withBase": true,
+    "DirectiveBinding": true,
+    "MaybeRef": true,
+    "MaybeRefOrGetter": true,
+    "onWatcherCleanup": true,
+    "useId": true,
+    "useModel": true,
+    "useTemplateRef": true
   }
 }
