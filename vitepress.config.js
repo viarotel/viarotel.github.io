@@ -35,8 +35,9 @@ const vitePressConfig = {
     [
       'script',
       {
-        src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+        src: 'https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js',
         async: '',
+        defer: true,
       },
     ],
   ],
@@ -82,8 +83,12 @@ const vitePressConfig = {
     ],
     footer: {
       message: `
-        <span id="busuanzi_container_site_pv"> Views <span id="busuanzi_value_site_pv"></span>, </span>
-        <span id="busuanzi_container_site_uv"> Visitors <span id="busuanzi_value_site_uv"></span> </span>
+        <span>Views: <span id="busuanzi_site_pv">0</span></span>
+        <span>Visitors: <span id="busuanzi_site_uv">0</span></span>
+        <span>Today Views: <span id="busuanzi_today_pv">0</span></span>
+        <span>Today Visitors: <span id="busuanzi_today_uv">0</span></span>
+        <span>Page Views: <span id="busuanzi_page_pv">0</span></span>
+        <span>Page Visitors: <span id="busuanzi_page_uv">0</span></span>
         <br />
         Released under the MIT License. 
       `,
