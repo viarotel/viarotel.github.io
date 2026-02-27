@@ -113,12 +113,7 @@ const vitePressConfig = {
 const vitePressI18nConfig = {
   locales,
   rootLocale: defaultLocale,
-  searchProvider: 'algolia',
-  searchOptions: {
-    appId: 'XY26T0U1UR',
-    apiKey: 'd92446a9ce99be7089c291a2dae47778',
-    indexName: 'viarotelio',
-  },
+  searchProvider: 'local',
   description: {
     en: `This is ${appName}`,
     zhHans: `这里是 ${appName}`,
