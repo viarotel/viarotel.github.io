@@ -83,16 +83,16 @@ const vitePressConfig = {
     ],
     footer: {
       message: `
-        <span>Views: <span id="busuanzi_site_pv">0</span></span>
-        <span>Visitors: <span id="busuanzi_site_uv">0</span></span>
-        <span>Today Views: <span id="busuanzi_today_pv">0</span></span>
-        <span>Today Visitors: <span id="busuanzi_today_uv">0</span></span>
-        <span>Page Views: <span id="busuanzi_page_pv">0</span></span>
-        <span>Page Visitors: <span id="busuanzi_page_uv">0</span></span>
+        <span>Views <span id="busuanzi_site_pv">0</span>, </span>
+        <span>Visitors <span id="busuanzi_site_uv">0</span></span>
         <br />
-        Released under the MIT License. 
+        <span>TodayViews <span id="busuanzi_today_pv">0</span>, </span>
+        <span>TodayVisitors <span id="busuanzi_today_uv">0</span>, </span>
+        <span>PageViews <span id="busuanzi_page_pv">0</span>, </span>
+        <span>PageVisitors <span id="busuanzi_page_uv">0</span></span>
+        <br />
       `,
-      copyright: `Copyright © 2023-${new Date().getFullYear()} viarotel`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} Powered by viarotel`,
     },
   },
 
